@@ -1,0 +1,106 @@
+.container {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    padding: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .children {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+    h2 {
+        margin-bottom: 10px;
+        color: #827397;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    span {
+        font-size: 18px;
+    }
+
+    .reactColor {
+        color: #61DBFB;
+    }
+
+    .jsColor {
+        color: #f7df1e;
+    }
+
+    .tsColor {
+        color: #007acc;
+    }
+
+    .twColor {
+        color: #22d3ee;
+    }
+
+    .sassColor {
+        color: #cd6799;
+    }
+
+    .englandColor {
+        color: #C8102E;
+    }
+
+    .nodeColor {
+        color: #3c873a;
+    }
+
+    .graphQLColor {
+        color: #e535ab;
+    }
+
+    .jestColor {
+        color: #907f7f;
+    }
+
+    .pgColor {
+        color: #326690;
+    }
+
+    .jwtColor {
+        color: rgba(196, 70, 116, 1);
+    }
+
+    .typeORMColor {
+        color: orangered;
+    }
+}
+
+.dark {
+    .container {
+        background-color: #161616;
+
+        p {
+            color: white;
+        }
+    }
+}
+
+.light {
+    .aboutContainer {
+        background-color: whitesmoke;
+
+        h1 {
+            color: #5e5e5e;
+        }
+    }
+
+    .skillsContainer {
+        background-color: rgb(208, 208, 208);
+
+        h1 {
+            color: #9b9b9b;
+        }
+    }
+}

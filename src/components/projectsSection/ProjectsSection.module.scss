@@ -1,0 +1,57 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+
+.more {
+    width: 110px;
+    margin: 0 auto;
+    padding: 7px 5px;
+    border: 1px solid #6f6f6f;
+    background: none;
+    color: #6f6f6f;
+    font-size: 20px;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+@media screen and(min-width: 760px) {
+    .more:hover {
+        color: whitesmoke;
+        background-color: #827397b8;
+    }
+}
+
+.arrowBox {
+    margin: 70px 0;
+    position: relative;
+}
+
+.dark {
+    .container {
+        background-color: #101010;
+
+        h1 {
+            color: whitesmoke;
+        }
+    }
+}
+
+.light {
+    .container {
+        background-color: rgb(208, 208, 208);
+        h1 {
+            color: #5e5e5e;
+        }
+
+        p{
+            color: gray;
+        }
+    }
+}

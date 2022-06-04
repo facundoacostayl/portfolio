@@ -1,0 +1,33 @@
+.container {
+    width: 85%;
+    max-width: 450px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 20px;
+    border-bottom: #6f6f6f35 1px solid;
+
+    p {
+        color: rgb(78, 101, 141);
+    }
+
+    h3 {
+        font-size: 22px;
+        color: #827397;
+    }
+
+    h4{
+        font-size: 18px;
+        color: #6f6f6f;
+        text-decoration: overline;
+    }
+
+    span {
+        color: white;
+    }
+
+    h3, span {
+        text-align: center;
+    }
+}
