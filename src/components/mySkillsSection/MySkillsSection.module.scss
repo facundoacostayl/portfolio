@@ -1,0 +1,31 @@
+section {
+
+    .container {
+
+        height: 100vh;
+        background-color: rgb(17, 17, 17);
+        text-align: center;
+        padding: 0 1.4rem;
+
+        h2{
+            color:white;
+            padding-top: 2rem;
+            font-size: 2rem;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul li {
+            max-width: 50px;
+        }
+
+        ul li img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

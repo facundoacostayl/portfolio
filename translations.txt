@@ -1,0 +1,26 @@
+Im a self-taught frontend developer based in Buenos Aires, Argentina, willing to be an expert in React and its ecosystem and Javascript.
+ I'm looking for my first job in this field.
+
+I created projects for my last job (administration position) like this CRM in order to improve daily tasks efficiency, and i made their
+ e-commerce which is currently working, as well as personal projects with a problem solution focus (you can find all of them in 'My Projects' section).
+
+ I like to use Typescript, Tailwind, SASS, GraphQL and React-Testing-Library + Jest for testing.
+
+Although i'm on frontend, i've got full-stack projects too because i consider that understanding how backend works is crucial to be a profesional,
+ so i learned backend technologies like NodeJS, SQL + Postgres, JWT, TypeORM and main concepts of server side development too.
+
+English language is another of my passions, i use it everyday to improve my skills. I can speak fluently, write, listen and read.
+
+Soy un desarrollador frontend autodidacta de Buenos Aires, Argentina, en constante crecimiento y dispuesto a ser un experto en tanto en React
+ y su ecosistema, como en Javascript.
+ Actualmente me encuentro en busqueda de mi primer trabajo en el rubro IT.
+
+ Cree proyectos para mi ultimo trabajo (puesto de administracion) como este CRM que desarrollé para mejorar la eficacia de mis tareas diarias, e hice su
+ E-Commerce el cual actualmente está en uso, así como proyectos personales con un foco en la solución de problemas puntuales (estos se encuentran en la sección "Mis Proyectos").
+
+ Me gusta usar Typescript, Tailwind, SASS, GraphQL and React-Testing-Library + Jest para unit testing.
+
+ Aunque soy frontend, tengo proyectos Full Stack también porque considero que entender como funciona el backend es crucial para ser un profesional,
+ entonces aprendi tecnologías backend como NodeJS, SQL + Postgres, JWT, TypeORM y los principales conceptos del desarrollo del lado del servidor.
+
+ El inglés es otra de mis pasiones, lo uso constantemente para mejorar mis habilidades. Puedo hablar con fluidez, escribir, escuchar y leerlo con facilidad.

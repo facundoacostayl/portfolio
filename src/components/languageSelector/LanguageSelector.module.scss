@@ -1,0 +1,22 @@
+.element {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    img {
+        width: 20px;
+    }
+    span {
+        font-size: 20px;  
+        transition: ease all .3s;
+    }
+
+    .dark {
+        color: white;
+    }
+
+    .light {
+        color: rgb(32, 32, 32);
+    }
+}

@@ -1,0 +1,55 @@
+ul {
+    transition: .3s all ease-in;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+    transition: opacity .3s linear;
+}
+
+.presentationBox p {
+    font-size: 18px;
+}
+
+.presentationBox span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #61DBFB;
+}
+
+.greeting {
+    font-size: 15px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 15px;
+}
+
+.dark {
+    .greeting {
+        color: gray;
+    }
+
+    .name {
+        color: white;
+    }
+}
+
+.light {
+    .greeting {
+        color: rgb(53, 53, 53);
+    }
+
+    .name {
+        color: rgb(52, 52, 52);
+    }   
+}
