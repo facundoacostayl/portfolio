@@ -32,22 +32,34 @@ export const ProjectItem: React.FC<Props> = ({
       {project === "edendesk" &&
         <>
           <div className={`${styles.stack}`}>
+          <div className={`${styles.icon}`}>
             <img
               src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
               alt="react-logo"
             />
+            <p>React</p>
+            </div>
+            <div className={`${styles.icon}`}>
             <img
               src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
               alt="typescript-logo"
             />
+            <p>Typescript</p>
+            </div>
+            <div className={`${styles.icon}`}>
              <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
               alt="tailwind-logo"
             />
+            <p>Tailwind</p>
+            </div>
+            <div className={`${styles.icon}`}>
             <img
               src="https://pablomagaz.com/content/images/2020/01/NodeJs.png"
               alt="node-logo"
             />
+            <p>NodeJS</p>
+            </div>
             <div className={`${styles.icon}`}>
               <img
                 src="https://cdn.pixabay.com/photo/2020/03/17/17/46/database-4941338_960_720.png"
@@ -69,22 +81,34 @@ export const ProjectItem: React.FC<Props> = ({
       {project === "proviamo" &&
         <>
           <div className={`${styles.stack}`}>
+          <div className={`${styles.icon}`}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
               alt="css-logo"
             />
+            <p>CSS</p>
+            </div>
+            <div className={`${styles.icon}`}>
             <img
               src="https://i.ibb.co/ZHPxSf1/80-803501-javascript-logo-logo-de-java-script-png.png"
               alt="-javascript-logo"
             />
+            <p>Javascript</p>
+            </div>
+            <div className={`${styles.icon}`}>
             <img
               src="https://pablomagaz.com/content/images/2020/01/NodeJs.png"
               alt="node-logo"
             />
+            <p>NodeJS</p>
+            </div>
+            <div className={`${styles.icon}`}>
             <img
               src="https://cdn-icons-png.flaticon.com/512/2965/2965327.png"
               alt="sheets-logo"
             />
+            <p>Google Sheets</p>
+            </div>
           </div>
         </>
       }
@@ -92,22 +116,34 @@ export const ProjectItem: React.FC<Props> = ({
       {project === "marketlist" &&
         <>
           <div className={`${styles.stack}`}>
+          <div className={`${styles.icon}`}>
             <img
               src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
               alt="react-logo"
             />
+            <p>React</p>
+            </div>
+            <div className={`${styles.icon}`}>
             <img
               src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
               alt="typescript-logo"
             />
+            <p>Typescript</p>
+            </div>
+            <div className={`${styles.icon}`}>
             <img
               src="https://stringfixer.com/files/736788654.jpg"
-              alt="node-logo"
+              alt="firebase-logo"
             />
-            
+            <p>Firebase</p>
+            </div>
+            <div className={`${styles.icon}`}>
               <img
                 src="https://raw.githubusercontent.com/johan-v-r/LibSassBuilder/main/package/sass.png"
+                alt="sass-logo"
               />
+              <p>Sass</p>
+              </div>
           </div>
         </>
       }
@@ -115,31 +151,19 @@ export const ProjectItem: React.FC<Props> = ({
       {project === "caloriesCalculator" &&
         <>
           <div className={`${styles.stack}`}>
-            <img
-              src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
-              alt="react-logo"
-            />
+          <div className={`${styles.icon}`}>
             <img
               src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
               alt="typescript-logo"
             />
-            <img
-              src="https://pablomagaz.com/content/images/2020/01/NodeJs.png"
-              alt="node-logo"
-            />
-            <div className={`${styles.icon}`}>
-              <img
-                src="https://cdn.pixabay.com/photo/2020/03/17/17/46/database-4941338_960_720.png"
-                alt="postgres-logo"
-              />
-              <p>PostgreSQL</p>
+            <p>Typescript</p>
             </div>
             <div className={`${styles.icon}`}>
-              <img
-                src="https://img.stackshare.io/service/7419/20165699.png"
-                alt="type-orm"
-              />
-              <p>TypeORM</p>
+            <img
+              src="https://themes.getbootstrap.com/wp-content/uploads/2018/02/Bootstrap-logo.png"
+              alt="bootstrap-logo"
+            />
+            <p>Bootstrap</p>
             </div>
           </div>
         </>

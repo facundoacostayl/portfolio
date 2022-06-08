@@ -12,7 +12,10 @@ export const useTheme = () => {
 
 export const ThemeProvider = ({children}: Props) => {
 
-    const [theme, setTheme] = useState<Theme>(() => localStorage.getItem("theme") as Theme);
+    const themeStorage = localStorage.getItem("theme");
+
+    const [theme, setTheme] = useState<Theme>(() =>
+     themeStorage ? themeStorage as Theme : Theme.dark);
 
     const value = {
         theme,

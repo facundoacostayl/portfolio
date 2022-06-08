@@ -10,7 +10,11 @@ export const useLanguage = () => useContext(LanguageContext);
 
 export const LanguageProvider = ({children}: Props) => {
 
-    const [language, setLanguage] = useState<Language>(Language.english);
+    const languageStorage = localStorage.getItem("language");
+
+    const [language, setLanguage] = useState<Language>(() =>
+      languageStorage ? languageStorage as Language : Language.english
+    );
 
     const value = {
         language,

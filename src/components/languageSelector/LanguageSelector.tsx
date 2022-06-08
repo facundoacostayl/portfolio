@@ -15,6 +15,10 @@ type Props = {
 export const LanguageSelector = ({theme}: Props) => {
   const { language, setLanguage } = useLanguage();
 
+  useEffect(() => {
+    localStorage.setItem("language", language);
+  }, [language]);
+
   return (
     <div onClick={() => setLanguage(language === Language.english ? Language.espanol : Language.english)} className={styles.element}>
       {language === "english" ? (
