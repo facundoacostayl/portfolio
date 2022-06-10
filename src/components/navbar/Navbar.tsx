@@ -10,6 +10,7 @@ import { LanguageSelector } from "../languageSelector";
 import { Theme } from "../../themeContext/types";
 
 type Props = {
+  children: React.ReactNode;
   theme: Theme;
   setTheme: React.Dispatch<React.SetStateAction<Theme>>;
   isMenuActive: boolean;
@@ -21,6 +22,7 @@ export const Navbar = ({
   setIsMenuActive,
   theme,
   setTheme,
+  children
 }: Props) => {
   const toggleMenu = () => {
     setIsMenuActive(!isMenuActive);
@@ -37,13 +39,14 @@ export const Navbar = ({
   return (
     <nav className={`${isMenuActive && "hidden"}`}>
       <div className="nav-container">
-        <div className="">
+        <div className="menu-icon">
           <FontAwesomeIcon
             onClick={() => toggleMenu()}
             className="icon"
             icon={faBars}
           ></FontAwesomeIcon>
         </div>
+        {children}
         <div className="nav-right">
           <LanguageSelector theme={theme} />
           <ThemeToggle

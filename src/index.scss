@@ -92,6 +92,7 @@ nav {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
                  
 .nav-right {
@@ -101,6 +102,49 @@ nav {
   font-size: 20px;
   font-weight: 500;
 }
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+.nav-menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    display: flex;
+    gap: 30px;
+
+    li a {
+      text-decoration: none;
+      transition: all ease .3s;
+    }
+    }
+
+    #light{
+      li a {
+        color: rgb(40, 40, 40);
+      }
+  
+      li a:hover {
+        color: rgb(131, 128, 128);
+      }
+    } 
+
+    #dark {
+      li a {
+        color: whitesmoke;
+      }
+  
+      li a:hover {
+        color: gray;
+      }
+    } 
+  }
+
 
 .menu-list {
   padding: 2.7rem 1rem;
