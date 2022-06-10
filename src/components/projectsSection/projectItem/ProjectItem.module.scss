@@ -12,34 +12,41 @@
 
         padding: 0 20px;
 
+        a {
+            text-decoration: none;
+        }
+
         img {
             width: 100%;
         }
 
-    
+
         p {
+            margin-top: 10px;
             color: rgb(78, 101, 141);
+            height: 120px;
         }
-    
+
         h3 {
             font-size: 22px;
             color: #827397;
         }
-    
-        h4{
+
+        h4 {
             font-size: 18px;
             color: #6f6f6f;
             text-decoration: overline;
         }
-    
+
         span {
             color: white;
         }
-    
-        h3, span {
+
+        h3,
+        span {
             text-align: center;
         }
-    }    
+    }
 
     .stack {
         width: 100%;
@@ -57,7 +64,7 @@
         }
 
         .icon {
-           
+
             p {
                 font-size: 10px;
             }
@@ -68,13 +75,32 @@
         display: flex;
         gap: 10px;
         justify-content: center;
-        color: white;
         font-size: 30px;
 
         .icon {
-           
+
+            a{
+                text-decoration: none;
+            }
+
             p {
                 font-size: 10px;
+            }
+        }
+    }
+
+    #dark {
+        .icon {
+            a {
+                color: whitesmoke;
+            }
+        }
+    }
+
+    #light {
+        .icon {
+            a {
+                color: rgb(74, 74, 74);
             }
         }
     }

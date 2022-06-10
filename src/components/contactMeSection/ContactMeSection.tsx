@@ -37,9 +37,9 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                         <div className={styles.contact}>
                             <p>Or you can find me on:</p>
                             <div className={styles.socialMediaBox}>
-                                <i><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></i>
-                                <i><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon><p>CV</p></i>
-                                <i><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></i>
+                                <a href="#"><i><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></i></a>
+                                <a href=""><i><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon><p>CV</p></i></a>
+                                <a href=""><i><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></i></a>
                             </div>
                         </div>
                     </>
