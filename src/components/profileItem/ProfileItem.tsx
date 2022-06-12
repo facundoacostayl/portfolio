@@ -19,7 +19,7 @@ export const ProfileItem: React.FC<Props> = ({ menuMode, theme }) => {
   return (
     <div className={`${theme === "dark" ? styles.dark : styles.light}`}>
       <div className={`${styles.profileItem} ${menuMode ? styles.borderHidden : ""}`}>
-        <img className={`${!isProfileLoaded && "hidden"} ${styles.profileImage}`} src="/src/img/profilephoto.png" />
+        <img className={`${!isProfileLoaded && "hidden"} ${styles.profileImage}`} src="https://lh3.googleusercontent.com/a-/AOh14Gj3HCc1IRWPzQ5ht9QYHC8mrTO6gUIKlg9gja3c=s288-p-rw-no" />
       </div>
     </div>
   )
