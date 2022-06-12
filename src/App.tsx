@@ -73,7 +73,7 @@ function App() {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </Navbar>
-      <header className="app-header">
+      <header id="home" className="app-header">
         <ProfileItem theme={theme} menuMode={isMenuActive} />
         <div className={`${isMenuActive && "hidden"}`}>
           <PresentationGroup language={language} theme={theme} />

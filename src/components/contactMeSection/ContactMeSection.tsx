@@ -1,5 +1,5 @@
 import styles from './ContactMeSection.module.scss';
-import { FontAwesomeIcon, faLinkedin, faGithub, faDownload, faEnvelope } from '../icon';
+import { FontAwesomeIcon, faLinkedin, faGithub, faDownload, faEnvelope, faArrowUp } from '../icon';
 import { Theme } from '../../themeContext/types';
 
 type Props = {
@@ -38,10 +38,13 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                             <p>Or you can find me on:</p>
                             <div className={styles.socialMediaBox}>
                                 <a href="#"><i><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></i></a>
-                                <a href=""><i><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon><p>CV</p></i></a>
-                                <a href=""><i><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></i></a>
+                                <a href="#"><i><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></i><p>CV</p></a>
+                                <a href="#"><i><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></i></a>
                             </div>
                         </div>
+                        <a href="#home" className={styles.upArrow}>
+                            <i><FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon></i>
+                        </a>
                     </>
                     :
                     <>
@@ -72,6 +75,10 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                                 <i><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></i>
                             </div>
                         </div>
+                        <a href="#home" className={styles.upArrow}>
+                            <i><FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon></i>
+                            <p>Inicio</p>
+                        </a>
                     </>
                 }
             </div>

@@ -1,3 +1,14 @@
+a {
+    margin: 0 auto;
+    width: 0px;
+}
+
+
+.projectsBox {
+    transform: translate(-50%, -50%);
+    margin: 4rem auto;
+}
+
 .box {
     position: absolute;
     bottom: 10%;
@@ -52,6 +63,58 @@
 
 .light {
     .box span {
+        border-bottom: 1px solid rgb(47, 47, 47);
+        border-right: 1px solid rgb(47, 47, 47);
+    }
+}
+
+.projectsBox span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid rgb(47, 47, 47);
+    border-right: 1px solid rgb(47, 47, 47);
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.projectsBox span:nth-child(1)
+{
+    animation-delay: -0.2s;
+}
+
+.projectsBox span:nth-child(2)
+{
+    animation-delay: -0.4s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+.dark {
+    .projectsBox span {
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+    }
+}
+
+.light {
+    .projectsBox span {
         border-bottom: 1px solid rgb(47, 47, 47);
         border-right: 1px solid rgb(47, 47, 47);
     }

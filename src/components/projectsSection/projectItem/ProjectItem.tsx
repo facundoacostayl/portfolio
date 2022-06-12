@@ -76,10 +76,16 @@ export const ProjectItem: React.FC<Props> = ({
               />
               <p>TypeORM</p>
             </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://img.icons8.com/color/480/java-web-token.png"
+                alt="type-orm"
+              />
+              <p>JWT</p>
+            </div>
           </div>
         </>
       }
-
       {project === "proviamo" &&
         <>
           <div className={`${styles.stack}`}>
@@ -167,19 +173,26 @@ export const ProjectItem: React.FC<Props> = ({
             />
             <p>Bootstrap</p>
             </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://raw.githubusercontent.com/johan-v-r/LibSassBuilder/main/package/sass.png"
+                alt="sass-logo"
+              />
+              <p>Sass</p>
+              </div>
           </div>
         </>
       }
 
-      <div id={theme === "dark" ? "dark" : "light"} className={`${styles.info}`}>
-        <div className={`${styles.icon}`}>
-          <a href=""><FontAwesomeIcon icon={faLink} /></a>
-          <a href=""><p>Go to website</p></a>
-        </div>
-        <div className={`${styles.icon}`}>
-          <a href=""><FontAwesomeIcon icon={faGithub} /></a>
-          <a href=""><p>Repository</p></a>
-        </div>
+      <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
+        <a href="#" className={`${styles.icon}`}>
+          <i><FontAwesomeIcon icon={faLink} /></i>
+          <p>Go to website</p>
+        </a >
+        <a href="#" className={`${styles.icon}`}>
+          <i><FontAwesomeIcon icon={faGithub} /></i>
+          <p>Repository</p>
+        </a>
       </div>
     </article>
   );

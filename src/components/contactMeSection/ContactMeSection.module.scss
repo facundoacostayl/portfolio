@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -67,31 +68,38 @@
 
         p {
             font-size: 15px;
-            color: rgb(173, 173, 173);
         }
 
         .socialMediaBox {
             width: 220px;
-            margin: 1rem auto 0 auto;
+            margin: 2rem auto 0 auto;
             display: flex;
-            justify-content: center;
-            justify-content: space-between;
             align-items: center;
+            text-align: center;
+            gap: 15px;
 
             a{
-                text-decoration: none;
-            }
-
-            i{
-                color: whitesmoke;
+                width: 100%;
                 font-size: 40px;
-
-                p{
-                    color: whitesmoke;
-                    font-weight: 500;
-                }
+                text-decoration: none;
+                    p{
+                        font-weight: 500;
+                    }                
             }
         }
+    }
+
+    .upArrow {
+       position: absolute;
+       bottom: 5%;
+       right: 10%;
+       padding: .3rem .7rem;
+       border-radius: 100%;
+       width: 25px;
+
+       i {
+        font-size: 30px;
+       }
     }
 }
 
@@ -101,10 +109,17 @@
 
         .contact {
             .socialMediaBox {
-                i {
+                a {
                     color: whitesmoke;
                 }
             }
+        }
+
+        .upArrow {
+            background-color: rgba(241, 240, 240, 0.055);
+             i {
+                color: rgba(172, 172, 172, 0.315);
+             }
         }
     }
 }
@@ -115,7 +130,7 @@
 
         .contact {
             .socialMediaBox {
-                i {
+                a {
                     color: rgb(89, 89, 89);
                 }
             }
@@ -142,6 +157,12 @@
             textarea:focus{
                 outline: 1px solid #827397;
             }
+        }
+        .upArrow {
+            background-color: #e4e4e4;
+             i {
+                color: rgb(180, 180, 180);
+             }
         }
     }
 }
