@@ -22,9 +22,21 @@
 
 
         p {
+            font-size: 12px;
             margin-top: 10px;
             color: rgb(78, 101, 141);
-            height: 120px;
+        }
+
+        @media screen and (min-width: 360px) {
+            p{
+             font-size: 15px;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            p {
+                height: 120px;
+            }
         }
 
         h3 {

@@ -44,7 +44,6 @@ function App() {
         {language === "english" ?
           <>
             <ul className="menu-list">
-              <li>Home</li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#about">About Me</a></li>
               <li><a href="#skills">Skills</a></li>
@@ -54,7 +53,6 @@ function App() {
           :
           <>
             <ul className="menu-list">
-              <li>Inicio</li>
               <li><a href="#projects">Proyectos</a></li>
               <li><a href="#about">Sobre mí</a></li>
               <li><a href="#skills">Skills</a></li>
@@ -66,7 +64,6 @@ function App() {
 
       <Navbar theme={theme} setTheme={setTheme} isMenuActive={isMenuActive} setIsMenuActive={setIsMenuActive}>
         <ul id={theme === "dark" ? "dark" : "light"} className="nav-menu">
-          <li><a href="#home">Home</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About Me</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -83,7 +80,7 @@ function App() {
       {!isMenuActive &&
         <>
           <div className="projects-section">
-            <ProjectsSection theme={theme} />
+            <ProjectsSection language={language} theme={theme} />
           </div>
           <AboutMeSection theme={theme} section="about" title={language === "english" ? "One pleasure..." : "Hola!"}>
             {language === "english" ?

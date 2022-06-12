@@ -14,18 +14,22 @@
     transition: .3s all ease-in;
 }
 
-.borderHidden {
-    border: none;
-}
-
 .dark {
     .profileItem {
         border: 2px solid white;
     }    
+
+    .borderHidden {
+        border: none;
+    }
 }
 
 .light {
     .profileItem {
-        border: 2px solid rgb(17, 17, 17);
+        border: 2px solid rgba(59, 59, 59, 0.219);
+    }
+
+    .borderHidden {
+        border: none;
     }
 }

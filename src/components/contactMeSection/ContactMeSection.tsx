@@ -48,7 +48,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                     </>
                     :
                     <>
-                        <h2>Contactémonos!</h2>
+                        <h2>Contactémonos</h2>
                         <form
                             action="https://formspree.io/f/moqrygej"
                             method="POST"
@@ -68,16 +68,15 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                             <button type="submit"><FontAwesomeIcon icon={faEnvelope} /> Enviar</button>
                         </form>
                         <div className={styles.contact}>
-                            <p>o también estoy en:</p>
+                            <p>O también estoy en:</p>
                             <div className={styles.socialMediaBox}>
-                                <i><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></i>
-                                <i><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon><p>CV</p></i>
-                                <i><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></i>
+                                <a href="#"><i><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></i></a>
+                                <a href="#"><i><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></i><p>CV</p></a>
+                                <a href="#"><i><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></i></a>
                             </div>
                         </div>
                         <a href="#home" className={styles.upArrow}>
                             <i><FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon></i>
-                            <p>Inicio</p>
                         </a>
                     </>
                 }

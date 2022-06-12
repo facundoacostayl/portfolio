@@ -1,5 +1,7 @@
 .container {
     position: relative;
+    top: 0;
+    left: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,7 +10,13 @@
     h2 {
         padding: 2rem 2rem;
         color: #827397;
-        font-size: 2rem;
+        font-size: 1.7rem;
+    }
+
+    @media screen and (min-width: 368px) {
+        h2 {
+            font-size: 2rem;
+        }
     }
 
     form {
@@ -91,8 +99,8 @@
 
     .upArrow {
        position: absolute;
-       bottom: 5%;
-       right: 10%;
+       bottom: 1%;
+       right: 1%;
        padding: .3rem .7rem;
        border-radius: 100%;
        width: 25px;
@@ -101,69 +109,84 @@
         font-size: 30px;
        }
     }
-}
 
-.dark {
-    .container{
-        background-color: rgb(14, 13, 13);
-
-        .contact {
-            .socialMediaBox {
-                a {
-                    color: whitesmoke;
-                }
-            }
-        }
-
+    @media screen and (min-width: 360px) {
         .upArrow {
-            background-color: rgba(241, 240, 240, 0.055);
-             i {
-                color: rgba(172, 172, 172, 0.315);
-             }
+            bottom: 2%;
+            right: 5%;
+            padding: .3rem .7rem;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .upArrow {
+            bottom: 5%;
+            right: 10%;
         }
     }
 }
 
-.light {
-    .container{
-        background-color: whitesmoke;
+.dark {
+        background-color: rgb(14, 13, 13);
 
-        .contact {
-            .socialMediaBox {
-                a {
-                    color: rgb(89, 89, 89);
+        .container{
+            .contact {
+                .socialMediaBox {
+                    a {
+                        color: whitesmoke;
+                    }
+                }
+            }
+
+            .upArrow {
+                background-color: rgba(241, 240, 240, 0.055);
+                i {
+                    color: rgba(138, 138, 138, 0.315);
                 }
             }
         }
+}
 
-        form {
-            label {
-                color: gray;
-            }
-            input{
-                border: 1px solid rgb(238, 237, 237);
-                color: gray;
-            }
-            
-            input:focus{
-                outline: 1px solid #827397;
-            }
+.light {
+        background-color: whitesmoke;
 
-            textarea {
-                border: 1px solid rgb(238, 237, 237);
-                color: gray;
+        .container{
+            .contact {
+                .socialMediaBox {
+                    a {
+                        color: rgb(89, 89, 89);
+                    }
+                }
             }
 
-            textarea:focus{
-                outline: 1px solid #827397;
+            form {
+                label {
+                    color: gray;
+                }
+                input{
+                    border: 1px solid rgb(238, 237, 237);
+                    color: gray;
+                }
+                
+                input:focus{
+                    outline: 1px solid #827397;
+                }
+
+                textarea {
+                    border: 1px solid rgb(238, 237, 237);
+                    color: gray;
+                }
+
+                textarea:focus{
+                    outline: 1px solid #827397;
+                }
             }
-        }
-        .upArrow {
-            background-color: #e4e4e4;
-             i {
-                color: rgb(180, 180, 180);
-             }
-        }
+            .upArrow {
+                background-color: #e4e4e4;
+                i {
+                    color: rgb(150, 149, 149);
+                }
+            }
     }
 }
 
