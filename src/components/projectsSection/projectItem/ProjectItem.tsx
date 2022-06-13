@@ -187,11 +187,11 @@ export const ProjectItem: React.FC<Props> = ({
       <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
         <a href="#" className={`${styles.icon}`}>
           <i><FontAwesomeIcon icon={faLink} /></i>
-          <p>Go to website</p>
+          <p>Website</p>
         </a >
         <a href="#" className={`${styles.icon}`}>
           <i><FontAwesomeIcon icon={faGithub} /></i>
-          <p>Repository</p>
+          <p>Github Repo</p>
         </a>
       </div>
     </article>

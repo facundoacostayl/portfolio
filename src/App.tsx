@@ -86,14 +86,14 @@ function App() {
             {language === "english" ?
               <>
                 <p> Im a self-taught frontend developer based in Buenos Aires, Argentina, willing to be an expert in <span className={`${styles.reactColor}`}><FontAwesomeIcon icon={faReact} />React</span> and its ecosystem and <span className={`${styles.jsColor}`}><FontAwesomeIcon icon={faJsSquare} />Javascript</span>. I'm looking for my first job in this field.</p>
-                <p> I created projects for my last job (administration position) like <a href="#">this CRM</a> in order
+                <p> I created projects for my last job (administration position) like this CRM in order
                   to improve daily tasks efficiency, and i made their e-commerce which is currently working, as well as
                   personal projects with a problem solution focus (you can find all of them in 'My Projects' section).</p>
               </>
               :
               <>
                 <p> Soy un desarrollador frontend autodidacta de Buenos Aires, Argentina, en constante crecimiento y dispuesto a ser un experto tanto en <span className={`${styles.reactColor}`}><FontAwesomeIcon icon={faReact} />React</span>  y su ecosistema, como en <span className={`${styles.jsColor}`}><FontAwesomeIcon icon={faJsSquare} />Javascript</span>.  Actualmente me encuentro en busqueda de mi primer trabajo en el rubro IT.</p>
-                <p> Cree proyectos para mi ultimo trabajo (puesto de administracion) como <a href="#">este CRM</a>  que desarrollé para mejorar la eficacia de mis tareas diarias, e hice su
+                <p> Desarrollé proyectos para mi último trabajo (puesto de administración) como un CRM  que desarrollé para mejorar la eficacia de mis tareas diarias, e hice su
                   E-Commerce el cual actualmente está en uso, así como proyectos personales con foco en la solución de problemas puntuales (estos se encuentran en la sección "Mis Proyectos").</p>
               </>
             }
@@ -111,8 +111,8 @@ function App() {
               </> :
               <>
                 <p> Me gusta usar <span className={`${styles.tsColor}`}>Typescript</span>, <span className={`${styles.twColor}`}>Tailwind</span>, <span className={`${styles.sassColor}`}>SASS</span>, <span className={`${styles.graphQLColor}`}>GraphQL</span> y <span>React-Testing-Library</span> + <span className={`${styles.jestColor}`}>Jest</span> para unit testing.</p>
-                <p>Aunque soy frontend, tengo proyectos Full Stack también porque considero que entender como funciona el backend es crucial para ser un profesional,
-                  entonces aprendi tecnologías backend como <span className={`${styles.nodeColor}`}><FontAwesomeIcon icon={faNodeJs} />NodeJS</span>, <span>SQL</span> + <span className={`${styles.pgColor}`}>Postgres</span>, <span className={`${styles.jwtColor}`}>JWT</span>, <span className={`${styles.typeORMColor}`}>TypeORM</span> y los principales conceptos del desarrollo del lado del servidor.
+                <p>Aunque soy frontend, también tengo proyectos Full Stack porque considero que entender como funciona el backend es crucial para ser un profesional,
+                  entonces aprendí tecnologías backend como <span className={`${styles.nodeColor}`}><FontAwesomeIcon icon={faNodeJs} />NodeJS</span>, <span>SQL</span> + <span className={`${styles.pgColor}`}>Postgres</span>, <span className={`${styles.jwtColor}`}>JWT</span>, <span className={`${styles.typeORMColor}`}>TypeORM</span> y los principales conceptos del desarrollo del lado del servidor.
                 </p>
                 <p>El <span className={`${styles.englandColor}`}><FontAwesomeIcon icon={faGlobe} />Ingles</span> es otra de mis pasiones, lo uso constantemente para mejorar mis habilidades. Puedo hablar con fluidez, escribir, escuchar y leerlo con facilidad.</p>
                 {/*Teamwork, empathy and commitment are some of my virtues, and i'd love to show you what i can do!*/}

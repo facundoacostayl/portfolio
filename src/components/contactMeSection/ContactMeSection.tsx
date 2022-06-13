@@ -49,6 +49,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                     :
                     <>
                         <h2>Contactémonos</h2>
+                        <div className={`${styles.formContainer}`}>
                         <form
                             action="https://formspree.io/f/moqrygej"
                             method="POST"
@@ -67,6 +68,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                             </div>
                             <button type="submit"><FontAwesomeIcon icon={faEnvelope} /> Enviar</button>
                         </form>
+                        </div>
                         <div className={styles.contact}>
                             <p>O también estoy en:</p>
                             <div className={styles.socialMediaBox}>
