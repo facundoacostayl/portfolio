@@ -84,6 +84,16 @@ export const ProjectItem: React.FC<Props> = ({
               <p>JWT</p>
             </div>
           </div>
+          <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
+        <a target="_blank" href="#" className={`${styles.icon}`}>
+          <i><FontAwesomeIcon icon={faLink} /></i>
+          <p>Website</p>
+        </a >
+        <a target="_blank" href="#" className={`${styles.icon}`}>
+          <i><FontAwesomeIcon icon={faGithub} /></i>
+          <p>Github Repo</p>
+        </a>
+      </div>
         </>
       }
       {project === "proviamo" &&
@@ -118,6 +128,16 @@ export const ProjectItem: React.FC<Props> = ({
             <p>Google Sheets</p>
             </div>
           </div>
+          <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
+        <a target="_blank" href="#" className={`${styles.icon}`}>
+          <i><FontAwesomeIcon icon={faLink} /></i>
+          <p>Website</p>
+        </a >
+        <a target="_blank" href="#" className={`${styles.icon}`}>
+          <i><FontAwesomeIcon icon={faGithub} /></i>
+          <p>Github Repo</p>
+        </a>
+      </div>
         </>
       }
 
@@ -153,6 +173,16 @@ export const ProjectItem: React.FC<Props> = ({
               <p>Sass</p>
               </div>
           </div>
+          <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
+        <a target="_blank" href="#" className={`${styles.icon}`}>
+          <i><FontAwesomeIcon icon={faLink} /></i>
+          <p>Website</p>
+        </a >
+        <a target="_blank" href="#" className={`${styles.icon}`}>
+          <i><FontAwesomeIcon icon={faGithub} /></i>
+          <p>Github Repo</p>
+        </a>
+      </div>
         </>
       }
 
@@ -184,16 +214,7 @@ export const ProjectItem: React.FC<Props> = ({
         </>
       }
 
-      <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
-        <a href="#" className={`${styles.icon}`}>
-          <i><FontAwesomeIcon icon={faLink} /></i>
-          <p>Website</p>
-        </a >
-        <a href="#" className={`${styles.icon}`}>
-          <i><FontAwesomeIcon icon={faGithub} /></i>
-          <p>Github Repo</p>
-        </a>
-      </div>
+      
     </article>
   );
 };

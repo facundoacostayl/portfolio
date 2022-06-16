@@ -1,10 +1,3 @@
-section {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100vh;
-}
-
 .container {
     position: relative;
     display: flex;
@@ -13,7 +6,7 @@ section {
     height: 100vh;
 
     h2 {
-        padding: 2rem 2rem;
+        padding: 1rem 2rem;
         color: #827397;
         font-size: 1.7rem;
     }
@@ -77,26 +70,36 @@ section {
     }
 
     .contact {
-        margin: 2rem 0;
 
-        p {
+        h3 {
             font-size: 15px;
+            font-weight: 400;
         }
+
+        h4 {
+            margin-top: 2rem;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center;
+            color: whitesmoke;
+        }
+
 
         .socialMediaBox {
             width: 220px;
-            margin: 2rem auto 0 auto;
+            margin: 1rem auto 0 auto;
             display: flex;
             align-items: center;
+            justify-content: center;
             text-align: center;
-            gap: 15px;
+            gap: 20px;
 
             a{
                 width: 100%;
                 font-size: 40px;
                 text-decoration: none;
                     p{
-                        font-weight: 500;
+                        font-size: 12px;
                     }                
             }
         }
@@ -136,6 +139,10 @@ section {
 
         .container{
             .contact {
+                h3, h4 {
+                    color: whitesmoke;
+                    font-weight: 300;
+                }
                 .socialMediaBox {
                     a {
                         color: whitesmoke;
@@ -157,6 +164,9 @@ section {
 
         .container{
             .contact {
+                h3, h4 {
+                    color: gray;
+                }
                 .socialMediaBox {
                     a {
                         color: rgb(89, 89, 89);

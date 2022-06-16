@@ -39,7 +39,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="edendesk"
                 title="EdenDesk CRM"
                 subtitle="Real Project"
-                image="/src/img/edendeskwallpaper.png"
+                image="https://i.ibb.co/H2584GP/edendeskwallpaper.png"
               >
                 CRM for a regional products company. It was created in order to
                 improve efficiency of client managment and get information about
@@ -50,7 +50,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="proviamo"
                 title="Proviamo's E-Commerce"
                 subtitle="Real Project"
-                image="/src/img/proviamowallpaper.png"
+                image="https://i.ibb.co/Xj69mWM/proviamowallpaper.png"
               >
                 E-Commerce for a gourmet products company based in Argentina.
                 It's currently online and generating sales constantly with the
@@ -106,7 +106,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="edendesk"
                 title="EdenDesk CRM"
                 subtitle="Proyecto Real"
-                image="/src/img/edendeskwallpaper.png"
+                image="https://i.ibb.co/H2584GP/edendeskwallpaper.png"
               >
                 CRM para una cadena de comercios de productos regionales. Creada
                 para mejorar la administración de sus clientes y obtener
@@ -117,7 +117,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="proviamo"
                 title="Proviamo's E-Commerce"
                 subtitle="Proyecto Real"
-                image="/src/img/proviamowallpaper.png"
+                image="https://i.ibb.co/Xj69mWM/proviamowallpaper.png"
               >
                 E-Commerce para una cadena de productos gourmet de Argentina.
                 Actualmente se encuentra en línea y genera ventas constantemente
