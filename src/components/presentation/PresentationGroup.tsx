@@ -30,7 +30,7 @@ export const PresentationGroup: React.FC<Props> = ({ theme, language }) => {
           <li className={`${styles.name}`}>Facundo Acosta</li>
           <div className={`${styles.presentationBox}`}>
             <p>Frontend developer</p>
-            <p>on <span><FontAwesomeIcon icon={faReact} />React</span></p>
+            <p>in <span><FontAwesomeIcon icon={faReact} />React</span></p>
           </div>
         </>
         :
