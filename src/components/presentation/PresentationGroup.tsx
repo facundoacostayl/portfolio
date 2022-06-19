@@ -14,23 +14,14 @@ type Props = {
 
 export const PresentationGroup: React.FC<Props> = ({ theme, language }) => {
 
-  const [isProfileLoaded, setIsProfileLoaded] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsProfileLoaded(true);
-    }, 800)
-  }, [])
-
   return (
-    <ul className={`${theme === "dark" ? styles.dark : styles.light} ${!isProfileLoaded ? styles.hidden : styles.active}`}>
+    <ul className={`${theme === "dark" ? styles.dark : styles.light}`}>
       {language === "english" ?
         <>
           <li className={`${styles.greeting}`}>Hi, i'm</li>
           <li className={`${styles.name}`}>Facundo Acosta</li>
           <div className={`${styles.presentationBox}`}>
             <p>Frontend developer</p>
-            <p>in <span><FontAwesomeIcon icon={faReact} />React</span></p>
           </div>
         </>
         :
@@ -39,7 +30,6 @@ export const PresentationGroup: React.FC<Props> = ({ theme, language }) => {
         <li className={`${styles.name}`}>Facundo Acosta</li>
         <div className={`${styles.presentationBox}`}>
           <p>Desarrollador Frontend</p>
-          <p>en <span><FontAwesomeIcon icon={faReact} />React</span></p>
         </div>
       </>
       }

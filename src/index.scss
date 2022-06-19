@@ -80,6 +80,10 @@ p {
   opacity: 0;
 }
 
+.home-container {
+  transition: .3s all ease;
+}
+
 nav {
   position: absolute;
   top: 0;
