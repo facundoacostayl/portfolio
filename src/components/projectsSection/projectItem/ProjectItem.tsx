@@ -11,7 +11,8 @@ type Props = {
   subtitle: string;
   image: string;
   project: string;
-  theme: string
+  theme: string;
+  url: string;
 };
 
 export const ProjectItem: React.FC<Props> = ({
@@ -20,13 +21,14 @@ export const ProjectItem: React.FC<Props> = ({
   subtitle,
   image,
   project,
-  theme
+  theme,
+  url
 }) => {
   return (
     <article className={`${styles.article}`}>
       <div className={`${styles.container}`}>
-       <a href=""><img src={`${image}`} alt="project"/></a>
-        <a href=""><h3>{title}</h3></a>
+       <a target="_blank" href={url}><img src={`${image}`} alt="project"/></a>
+        <a target="_blank" href={url}><h3>{title}</h3></a>
         <h4>{subtitle}</h4>
         <p>{children}</p>
       </div>

@@ -33,12 +33,7 @@
             }
         }
 
-        @media screen and (min-width: 768px) {
-            p {
-                height: 120px;
-            }
-        }
-
+        
         h3 {
             font-size: 22px;
             color: #827397;
@@ -74,14 +69,6 @@
         img {
             width: 40px;
             height: 40px;
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        .stack {
-            display: grid;
-            grid-template-rows: repeat(2, 1fr);
-            gap: 20px;
         }
     }
 

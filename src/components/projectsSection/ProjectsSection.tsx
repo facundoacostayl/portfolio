@@ -39,7 +39,8 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="edendesk"
                 title="EdenDesk CRM"
                 subtitle="Real Project"
-                image="https://i.ibb.co/H2584GP/edendeskwallpaper.png"
+                image="https://storage.cloudconvert.com/tasks/261fe12c-f4a0-45b0-b2c8-f13dfb2f2452/edendeskwallpaper.webp?AWSAccessKeyId=cloudconvert-production&Expires=1655718844&Signature=UJsAoR%2BrfmT5OXOuiegJmtI0sVU%3D&response-content-disposition=inline%3B%20filename%3D%22edendeskwallpaper.webp%22&response-content-type=image%2Fwebp"
+                url="https://edendesk-crm.vercel.app/"
               >
                 CRM for a regional products company. It was created in order to
                 improve efficiency of client managment and get information about
@@ -50,7 +51,8 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="proviamo"
                 title="Proviamo's E-Commerce"
                 subtitle="Real Project"
-                image="https://i.ibb.co/Xj69mWM/proviamowallpaper.png"
+                image="https://storage.cloudconvert.com/tasks/907454fc-a755-4da8-b96a-4657e24aaa63/proviamowallpaper.webp?AWSAccessKeyId=cloudconvert-production&Expires=1655718845&Signature=6nht21FAWYMkG%2BEyoK7zEUe1xj8%3D&response-content-disposition=inline%3B%20filename%3D%22proviamowallpaper.webp%22&response-content-type=image%2Fwebp"
+                url="https://proviamoalmacengourmet.com"
               >
                 E-Commerce for a gourmet products company based in Argentina.
                 It's currently online and generating sales constantly with the
@@ -61,9 +63,10 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="marketlist"
                 title="Marketlist against Inflation"
                 subtitle="Personal Project"
-                image="/src/img/proviamowallpaper.png"
+                image="https://storage.cloudconvert.com/tasks/7991a119-b994-4212-8277-e80e3e272111/comming-soon.webp?AWSAccessKeyId=cloudconvert-production&Expires=1655724066&Signature=lY6ZZVooXOHqem%2F2HJ8T%2FwWdg4U%3D&response-content-disposition=inline%3B%20filename%3D%22comming-soon.webp%22&response-content-type=image%2Fwebp"
+                url="proviamoalmacengourmet.com"
               >
-                In order to take a control of money increments due to high
+                In order to take a control of price increase due to high
                 inflation in Argentina, i created this marketlist that converts
                 products prices and total from your currency to dollars to
                 compare them in your next visit to the market.
@@ -106,7 +109,8 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="edendesk"
                 title="EdenDesk CRM"
                 subtitle="Proyecto Real"
-                image="https://i.ibb.co/H2584GP/edendeskwallpaper.png"
+                image="https://storage.cloudconvert.com/tasks/261fe12c-f4a0-45b0-b2c8-f13dfb2f2452/edendeskwallpaper.webp?AWSAccessKeyId=cloudconvert-production&Expires=1655718844&Signature=UJsAoR%2BrfmT5OXOuiegJmtI0sVU%3D&response-content-disposition=inline%3B%20filename%3D%22edendeskwallpaper.webp%22&response-content-type=image%2Fwebp"
+                url="https://edendesk-crm.vercel.app/"
               >
                 CRM para una cadena de comercios de productos regionales. Creada
                 para mejorar la administración de sus clientes y obtener
@@ -117,7 +121,8 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="proviamo"
                 title="Proviamo's E-Commerce"
                 subtitle="Proyecto Real"
-                image="https://i.ibb.co/Xj69mWM/proviamowallpaper.png"
+                image="https://storage.cloudconvert.com/tasks/907454fc-a755-4da8-b96a-4657e24aaa63/proviamowallpaper.webp?AWSAccessKeyId=cloudconvert-production&Expires=1655718845&Signature=6nht21FAWYMkG%2BEyoK7zEUe1xj8%3D&response-content-disposition=inline%3B%20filename%3D%22proviamowallpaper.webp%22&response-content-type=image%2Fwebp"
+                url="https://proviamoalmacengourmet.com"
               >
                 E-Commerce para una cadena de productos gourmet de Argentina.
                 Actualmente se encuentra en línea y genera ventas constantemente
@@ -128,7 +133,8 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="marketlist"
                 title="Marketlist against Inflation"
                 subtitle="Proyecto Personal"
-                image="/src/img/proviamowallpaper.png"
+                image="https://storage.cloudconvert.com/tasks/7991a119-b994-4212-8277-e80e3e272111/comming-soon.webp?AWSAccessKeyId=cloudconvert-production&Expires=1655724066&Signature=lY6ZZVooXOHqem%2F2HJ8T%2FwWdg4U%3D&response-content-disposition=inline%3B%20filename%3D%22comming-soon.webp%22&response-content-type=image%2Fwebp"
+                url="proviamoalmacengourmet.com"
               >
                 Debido a la alta inflación en Argentina, cree esta aplicación
                 que funciona como "lista de compras" pero con la particularidad
