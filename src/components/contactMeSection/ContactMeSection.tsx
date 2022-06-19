@@ -64,7 +64,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                   </i>
                 </a>
-                <a href="#">
+                <a target="_blank" href="../../src/downloads/Facundo Acosta Dev CV.pdf" download>
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
@@ -125,7 +125,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                   </i>
                 </a>
-                <a href="#">
+                <a target="_blank" href="../../src/downloads/Facundo Acosta Dev CV.pdf" download>
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
