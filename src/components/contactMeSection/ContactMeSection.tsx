@@ -64,7 +64,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                   </i>
                 </a>
-                <a target="_blank" href="../../src/downloads/Facundo Acosta Dev CV.pdf" download>
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQE37lwfZ1bzmQ/profile-treasury-document-pdf-analyzed/0/1655763215447?e=1656547200&v=beta&t=sTx004iM1h6W9pXHi1G1wERdJZQPwhQERsdnESppWhI">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
@@ -125,7 +125,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                   </i>
                 </a>
-                <a target="_blank" href="../../src/downloads/Facundo Acosta Dev CV.pdf" download>
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQE37lwfZ1bzmQ/profile-treasury-document-pdf-analyzed/0/1655763215447?e=1656547200&v=beta&t=sTx004iM1h6W9pXHi1G1wERdJZQPwhQERsdnESppWhI">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
