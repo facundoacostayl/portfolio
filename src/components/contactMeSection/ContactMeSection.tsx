@@ -43,6 +43,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
             <div className={styles.contact}>
               <h3>You can find me on:</h3>
               <div className={styles.socialMediaBox}>
+                <div className={`${styles.socialBox}`}>
                 <a target="_blank" href="https://www.linkedin.com/in/facundo-chaves-acosta-y-lara-932bb1179/">
                   <i>
                     <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
@@ -64,12 +65,21 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                   </i>
                 </a>
+                </div>
+                <div className={`${styles.resumeBox}`}>
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQF61YjWxU29cA/profile-treasury-document-pdf-analyzed/0/1655896115163?e=1656547200&v=beta&t=tX5zE77KIs7fUsZOjnKShaAU5eKEe7fXqsG72xce-eY">
+                  <i>
+                    <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
+                  </i>
+                  <p>My CV (English)</p>
+                </a>
                 <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQE37lwfZ1bzmQ/profile-treasury-document-pdf-analyzed/0/1655763215447?e=1656547200&v=beta&t=sTx004iM1h6W9pXHi1G1wERdJZQPwhQERsdnESppWhI">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
-                  <p>My CV</p>
+                  <p>My CV (Spanish)</p>
                 </a>
+                </div>
               </div>
               <h4>Thank you for visiting!</h4>
             </div>
@@ -105,6 +115,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
             <div className={styles.contact}>
               <h3>Estoy en:</h3>
               <div className={styles.socialMediaBox}>
+              <div className={`${styles.socialBox}`}>
                 <a target="_blank" href="https://www.linkedin.com/in/facundo-chaves-acosta-y-lara-932bb1179/">
                   <i>
                     <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
@@ -125,12 +136,21 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                   </i>
                 </a>
+                </div>
+                <div className={`${styles.resumeBox}`}>
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQF61YjWxU29cA/profile-treasury-document-pdf-analyzed/0/1655896115163?e=1656547200&v=beta&t=tX5zE77KIs7fUsZOjnKShaAU5eKEe7fXqsG72xce-eY">
+                  <i>
+                    <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
+                  </i>
+                  <p>My CV (English)</p>
+                </a>
                 <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQE37lwfZ1bzmQ/profile-treasury-document-pdf-analyzed/0/1655763215447?e=1656547200&v=beta&t=sTx004iM1h6W9pXHi1G1wERdJZQPwhQERsdnESppWhI">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
-                  <p>Mi CV</p>
+                  <p>My CV (Spanish)</p>
                 </a>
+                </div>
               </div>
               <h4>Gracias por la visita!</h4>
             </div>
