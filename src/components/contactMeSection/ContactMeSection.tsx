@@ -67,13 +67,13 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 </a>
                 </div>
                 <div className={`${styles.resumeBox}`}>
-                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQF61YjWxU29cA/profile-treasury-document-pdf-analyzed/0/1655896115163?e=1656547200&v=beta&t=tX5zE77KIs7fUsZOjnKShaAU5eKEe7fXqsG72xce-eY">
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQGRvBn3AXsl3Q/profile-treasury-document-pdf-analyzed/0/1656287393077?e=1657152000&v=beta&t=xVJq2ojS04ZiSchtX796WuUF_hTU760N5xpGlJ8WbYc">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
                   <p>My CV (English)</p>
                 </a>
-                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQE37lwfZ1bzmQ/profile-treasury-document-pdf-analyzed/0/1655763215447?e=1656547200&v=beta&t=sTx004iM1h6W9pXHi1G1wERdJZQPwhQERsdnESppWhI">
+                <a target="_blank" href="https://media-exp2.licdn.com/dms/document/C4D2DAQGaQbvvRF8R8g/profile-treasury-document-pdf-analyzed/0/1656167750117?e=1657152000&v=beta&t=fckedI12Mg-bPQND2UTltvkvHI8MaGj9uT1eezeYKUI">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
@@ -138,17 +138,17 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 </a>
                 </div>
                 <div className={`${styles.resumeBox}`}>
-                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQF61YjWxU29cA/profile-treasury-document-pdf-analyzed/0/1655896115163?e=1656547200&v=beta&t=tX5zE77KIs7fUsZOjnKShaAU5eKEe7fXqsG72xce-eY">
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQGRvBn3AXsl3Q/profile-treasury-document-pdf-analyzed/0/1656287393077?e=1657152000&v=beta&t=xVJq2ojS04ZiSchtX796WuUF_hTU760N5xpGlJ8WbYc">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
-                  <p>My CV (English)</p>
+                  <p>Mi CV (Inglés)</p>
                 </a>
-                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQE37lwfZ1bzmQ/profile-treasury-document-pdf-analyzed/0/1655763215447?e=1656547200&v=beta&t=sTx004iM1h6W9pXHi1G1wERdJZQPwhQERsdnESppWhI">
+                <a target="_blank" href="https://media-exp2.licdn.com/dms/document/C4D2DAQGaQbvvRF8R8g/profile-treasury-document-pdf-analyzed/0/1656167750117?e=1657152000&v=beta&t=fckedI12Mg-bPQND2UTltvkvHI8MaGj9uT1eezeYKUI">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
-                  <p>My CV (Spanish)</p>
+                  <p>Mi CV (Español)</p>
                 </a>
                 </div>
               </div>

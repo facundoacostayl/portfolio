@@ -128,7 +128,7 @@ function App() {
               <>
                 <p>
                   {" "}
-                  Im a self-taught frontend developer based in Buenos Aires,
+                  Im a self-taught Full-Stack Developer based in Buenos Aires,
                   Argentina, willing to be an expert in{" "}
                   <span className={`${styles.reactColor}`}>
                     <FontAwesomeIcon icon={faReact} />
@@ -154,7 +154,7 @@ function App() {
               <>
                 <p>
                   {" "}
-                  Soy un desarrollador frontend autodidacta de Buenos Aires,
+                  Soy un Desarrollador Full-Stack autodidacta de Buenos Aires,
                   Argentina, en constante crecimiento y dispuesto a ser un
                   experto tanto en{" "}
                   <span className={`${styles.reactColor}`}>
@@ -200,10 +200,8 @@ function App() {
                   testing.
                 </p>
                 <p>
-                  Although i'm on frontend, i've got full-stack projects too
-                  because i consider that understanding how backend works is
-                  crucial to be a profesional, so i learned backend technologies
-                  like{" "}
+                  For client side, i
+                  use{" "}
                   <span className={`${styles.nodeColor}`}>
                     <FontAwesomeIcon icon={faNodeJs} />
                     NodeJS
@@ -240,9 +238,7 @@ function App() {
                   testing.
                 </p>
                 <p>
-                  Aunque soy frontend, también tengo proyectos Full Stack porque
-                  considero que entender como funciona el backend es crucial
-                  para ser un profesional, entonces aprendí tecnologías backend
+                  En cuanto a backend, utilizo tecnologías
                   como{" "}
                   <span className={`${styles.nodeColor}`}>
                     <FontAwesomeIcon icon={faNodeJs} />
@@ -250,10 +246,8 @@ function App() {
                   </span>
                   , <span>SQL</span> +{" "}
                   <span className={`${styles.pgColor}`}>Postgres</span>,{" "}
-                  <span className={`${styles.jwtColor}`}>JWT</span>,{" "}
-                  <span className={`${styles.typeORMColor}`}>TypeORM</span> y
-                  los principales conceptos del desarrollo del lado del
-                  servidor.
+                  <span className={`${styles.jwtColor}`}>JWT</span>,{" y "}
+                  <span className={`${styles.typeORMColor}`}>TypeORM</span>.
                 </p>
                 <p>
                   El{" "}
