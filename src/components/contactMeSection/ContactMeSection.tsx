@@ -67,7 +67,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 </a>
                 </div>
                 <div className={`${styles.resumeBox}`}>
-                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQGRvBn3AXsl3Q/profile-treasury-document-pdf-analyzed/0/1656287393077?e=1657152000&v=beta&t=xVJq2ojS04ZiSchtX796WuUF_hTU760N5xpGlJ8WbYc">
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQF_uqW-KwaHaQ/profile-treasury-document-pdf-analyzed/0/1656579290217?e=1657756800&v=beta&t=AVwFHq6y4MEjc9JMQve6Sh29PO-Mn1XXg5dFapDLLkc">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
@@ -138,7 +138,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 </a>
                 </div>
                 <div className={`${styles.resumeBox}`}>
-                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQGRvBn3AXsl3Q/profile-treasury-document-pdf-analyzed/0/1656287393077?e=1657152000&v=beta&t=xVJq2ojS04ZiSchtX796WuUF_hTU760N5xpGlJ8WbYc">
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQF_uqW-KwaHaQ/profile-treasury-document-pdf-analyzed/0/1656579290217?e=1657756800&v=beta&t=AVwFHq6y4MEjc9JMQve6Sh29PO-Mn1XXg5dFapDLLkc">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
