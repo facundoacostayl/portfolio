@@ -44,7 +44,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
               <h3>You can find me on:</h3>
               <div className={styles.socialMediaBox}>
                 <div className={`${styles.socialBox}`}>
-                <a target="_blank" href="https://www.linkedin.com/facundoacostayl">
+                <a target="_blank" href="https://www.linkedin.com/in/facundoacostayl">
                   <i>
                     <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                   </i>
@@ -67,13 +67,13 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 </a>
                 </div>
                 <div className={`${styles.resumeBox}`}>
-                <a target="_blank" href="https://media-exp2.licdn.com/dms/document/C4D2DAQHlHbGjBH1rwQ/profile-treasury-document-pdf-analyzed/0/1657497739070?e=1658361600&v=beta&t=I-murPqE4a-shwUgb-RuTvFA3aZpFnmHFY1uSqp4Sa8">
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQF0ERHVAWyLlA/profile-treasury-document-pdf-analyzed/0/1657501197672?e=1658361600&v=beta&t=Swn7HUi9HTbAItIEpgKoMWZcIQuNpEvDSjaeP-VaPvw">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
                   <p>My CV (English)</p>
                 </a>
-                <a target="_blank" href="https://media-exp2.licdn.com/dms/document/C4D2DAQHSt76n69OfCA/profile-treasury-document-pdf-analyzed/0/1657497757119?e=1658361600&v=beta&t=Foj7_oZGX2WwvI2kwE7569dWpHnBYjyn0l8I0TEB1nw">
+                <a target="_blank" href="https://media-exp2.licdn.com/dms/document/C4D2DAQEhLgPF5opMWg/profile-treasury-document-pdf-analyzed/0/1657501152056?e=1658361600&v=beta&t=IHbLCdf7bBn_pUTMrPyHBaO3spg1LQSc7YHasaAXe40">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
@@ -116,7 +116,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
               <h3>Estoy en:</h3>
               <div className={styles.socialMediaBox}>
               <div className={`${styles.socialBox}`}>
-                <a target="_blank" href="https://www.linkedin.com/facundoacostayl">
+                <a target="_blank" href="https://www.linkedin.com/in/facundoacostayl">
                   <i>
                     <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                   </i>
@@ -138,13 +138,13 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 </a>
                 </div>
                 <div className={`${styles.resumeBox}`}>
-                <a target="_blank" href="https://media-exp2.licdn.com/dms/document/C4D2DAQHlHbGjBH1rwQ/profile-treasury-document-pdf-analyzed/0/1657497739070?e=1658361600&v=beta&t=I-murPqE4a-shwUgb-RuTvFA3aZpFnmHFY1uSqp4Sa8">
+                <a target="_blank" href="https://media-exp1.licdn.com/dms/document/C4D2DAQF0ERHVAWyLlA/profile-treasury-document-pdf-analyzed/0/1657501197672?e=1658361600&v=beta&t=Swn7HUi9HTbAItIEpgKoMWZcIQuNpEvDSjaeP-VaPvw">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
                   <p>Mi CV (Inglés)</p>
                 </a>
-                <a target="_blank" href="https://media-exp2.licdn.com/dms/document/C4D2DAQHSt76n69OfCA/profile-treasury-document-pdf-analyzed/0/1657497757119?e=1658361600&v=beta&t=Foj7_oZGX2WwvI2kwE7569dWpHnBYjyn0l8I0TEB1nw">
+                <a target="_blank" href="https://media-exp2.licdn.com/dms/document/C4D2DAQEhLgPF5opMWg/profile-treasury-document-pdf-analyzed/0/1657501152056?e=1658361600&v=beta&t=IHbLCdf7bBn_pUTMrPyHBaO3spg1LQSc7YHasaAXe40">
                   <i>
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                   </i>
