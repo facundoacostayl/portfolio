@@ -59,7 +59,7 @@ export const ProjectItem: React.FC<Props> = ({
             </div>
             <div className={`${styles.icon}`}>
             <img
-              src="https://pablomagaz.com/content/images/2020/01/NodeJs.png"
+              src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
               alt="node-logo"
             />
             <p>NodeJS</p>
@@ -117,7 +117,7 @@ export const ProjectItem: React.FC<Props> = ({
             </div>
             <div className={`${styles.icon}`}>
             <img
-              src="https://pablomagaz.com/content/images/2020/01/NodeJs.png"
+              src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
               alt="node-logo"
             />
             <p>NodeJS</p>
