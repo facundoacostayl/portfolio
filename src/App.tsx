@@ -275,36 +275,52 @@ function App() {
             ) : (
               <>
                 <p>
-                  {" "}
-                  Me gusta usar{" "}
-                  <span className={`${styles.tsColor}`}>Typescript</span>,{" "}
-                  <span className={`${styles.twColor}`}>Tailwind</span>,{" "}
-                  <span className={`${styles.sassColor}`}>SASS</span>,{" "}
-                  <span className={`${styles.graphQLColor}`}>GraphQL</span> y{" "}
-                  <span>React-Testing-Library</span> +{" "}
-                  <span className={`${styles.jestColor}`}>Jest</span> para unit
-                  testing.
-                </p>
-                <p>
-                  En cuanto a backend, utilizo tecnologías como{" "}
+                  Utilizo{" "}
                   <span className={`${styles.nodeColor}`}>
                     <FontAwesomeIcon icon={faNodeJs} />
                     NodeJS
-                  </span>
-                  , <span>SQL</span> +{" "}
+                  </span>{" "}
+                  + <span className={`${styles.tsColor}`}>
+                    Typescript
+                  </span>,{" "}
+                  <span className={`${styles.nodeColor}`}>Express</span>,{" "}
+                  <span className={`${styles.englandColor}`}>NestJs</span>,{" "}
+                  <span>SQL</span> +{" "}
                   <span className={`${styles.pgColor}`}>Postgres</span>,{" "}
-                  <span className={`${styles.jwtColor}`}>JWT</span>,{" y "}
-                  <span className={`${styles.typeORMColor}`}>TypeORM</span>.
+                  <span>No-SQL</span> +{" "}
+                  <span className={`${styles.nodeColor}`}>MongoDB</span>,{" "}
+                  <span className={`${styles.typeORMColor}`}>TypeORM</span>,{" "}
+                  <span className={`${styles.graphQLColor}`}>GraphQL</span>,{" "}
+                  <span className={`${styles.jwtColor}`}>JWT</span> and{" "}
+                  <span className={`${styles.jestColor}`}>Jest</span> para unit
+                  testings.
+                  <p>
+                    {" "}
+                    Hago foco en patrones de diseño y arquitectura, así como en
+                    buenas practicas de seguridad.
+                  </p>
                 </p>
                 <p>
+                  {" "}
+                  En el lado del cliente,{" "}
+                  <span className={`${styles.reactColor}`}>
+                    <FontAwesomeIcon icon={faReact} />
+                    React
+                  </span>
+                  , <span className={`${styles.twColor}`}>Tailwind</span>,{" "}
+                  <span className={`${styles.sassColor}`}>SASS</span>,{" "}
+                  <span className={`${styles.graphQLColor}`}>Bootstrap</span>,{" "}
+                </p>
+                <p>
+                  {" "}
                   El{" "}
                   <span className={`${styles.englandColor}`}>
                     <FontAwesomeIcon icon={faGlobe} />
-                    Ingles
+                    inglés
                   </span>{" "}
-                  es otra de mis pasiones, lo uso constantemente para mejorar
-                  mis habilidades. Puedo hablar con fluidez, escribir, escuchar
-                  y leerlo con facilidad.
+                  es otra de mis pasiones, lo utilizo a diario para perfeccionar
+                  mis habilidades. Puedo hablarlo fluidamente, escribir y
+                  entender tanto al escucharlo como al leerlo.
                 </p>
                 {/*Teamwork, empathy and commitment are some of my virtues, and i'd love to show you what i can do!*/}
               </>
