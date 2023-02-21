@@ -83,7 +83,9 @@ function App() {
         </Menu>
       )}
 
-      <div className={`home-container ${!isProfileLoaded ? "hidden" : "active"}`}>
+      <div
+        className={`home-container ${!isProfileLoaded ? "hidden" : "active"}`}
+      >
         <Navbar
           theme={theme}
           setTheme={setTheme}
@@ -91,18 +93,37 @@ function App() {
           setIsMenuActive={setIsMenuActive}
         >
           <ul id={theme === "dark" ? "dark" : "light"} className="nav-menu">
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#about">About Me</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
+            {language === "english" ? (
+              <>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#about">About Me</a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </>
+            ) : (
+              <>
+                <li>
+                  <a href="#projects">Proyectos</a>
+                </li>
+                <li>
+                  <a href="#about">Sobre mí</a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="#contact">Contacto</a>
+                </li>
+              </>
+            )}
           </ul>
         </Navbar>
         <header id="home" className="app-header">
@@ -200,8 +221,7 @@ function App() {
                   testing.
                 </p>
                 <p>
-                  For client side, i
-                  use{" "}
+                  For client side, i use{" "}
                   <span className={`${styles.nodeColor}`}>
                     <FontAwesomeIcon icon={faNodeJs} />
                     NodeJS
@@ -238,8 +258,7 @@ function App() {
                   testing.
                 </p>
                 <p>
-                  En cuanto a backend, utilizo tecnologías
-                  como{" "}
+                  En cuanto a backend, utilizo tecnologías como{" "}
                   <span className={`${styles.nodeColor}`}>
                     <FontAwesomeIcon icon={faNodeJs} />
                     NodeJS
