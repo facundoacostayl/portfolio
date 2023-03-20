@@ -94,13 +94,21 @@ export const ProjectItem: React.FC<Props> = ({
               styles.info
             }`}
           >
-            <a target="_blank" href="#" className={`${styles.icon}`}>
+            <a
+              target="_blank"
+              href="https://edendesk-crm-frontend.vercel.app/"
+              className={`${styles.icon}`}
+            >
               <i>
                 <FontAwesomeIcon icon={faLink} />
               </i>
               <p>Website</p>
             </a>
-            <a target="_blank" href="#" className={`${styles.icon}`}>
+            <a
+              target="_blank"
+              href="https://github.com/facundoacostayl/edendeskCRM-backend"
+              className={`${styles.icon}`}
+            >
               <i>
                 <FontAwesomeIcon icon={faGithub} />
               </i>
@@ -112,13 +120,6 @@ export const ProjectItem: React.FC<Props> = ({
       {project === "proviamo" && (
         <>
           <div className={`${styles.stack}`}>
-            <div className={`${styles.icon}`}>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-                alt="css-logo"
-              />
-              <p>CSS</p>
-            </div>
             <div className={`${styles.icon}`}>
               <img
                 src="https://i.ibb.co/ZHPxSf1/80-803501-javascript-logo-logo-de-java-script-png.png"
@@ -140,19 +141,34 @@ export const ProjectItem: React.FC<Props> = ({
               />
               <p>Google Sheets</p>
             </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                alt="css-logo"
+              />
+              <p>CSS</p>
+            </div>
           </div>
           <div
             className={`${theme === "dark" ? styles.dark : styles.light} ${
               styles.info
             }`}
           >
-            <a target="_blank" href="#" className={`${styles.icon}`}>
+            <a
+              target="_blank"
+              href="https://proviamoalmacengourmet.com"
+              className={`${styles.icon}`}
+            >
               <i>
                 <FontAwesomeIcon icon={faLink} />
               </i>
               <p>Website</p>
             </a>
-            <a target="_blank" href="#" className={`${styles.icon}`}>
+            <a
+              target="_blank"
+              href="https://github.com/facundoacostayl/Proviamo-E-Commerce"
+              className={`${styles.icon}`}
+            >
               <i>
                 <FontAwesomeIcon icon={faGithub} />
               </i>
