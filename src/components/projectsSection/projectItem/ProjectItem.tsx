@@ -183,13 +183,6 @@ export const ProjectItem: React.FC<Props> = ({
           <div className={`${styles.stack}`}>
             <div className={`${styles.icon}`}>
               <img
-                src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
-                alt="react-logo"
-              />
-              <p>React</p>
-            </div>
-            <div className={`${styles.icon}`}>
-              <img
                 src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
                 alt="typescript-logo"
               />
@@ -197,10 +190,38 @@ export const ProjectItem: React.FC<Props> = ({
             </div>
             <div className={`${styles.icon}`}>
               <img
-                src="https://stringfixer.com/files/736788654.jpg"
-                alt="firebase-logo"
+                src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+                alt="node-logo"
               />
-              <p>Firebase</p>
+              <p>NodeJS</p>
+            </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/1200px-NestJS.svg.png"
+                alt="nestjs-logo"
+              />
+              <p>NestJS</p>
+            </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://cdn.pixabay.com/photo/2020/03/17/17/46/database-4941338_960_720.png"
+                alt="postgres-logo"
+              />
+              <p>PostgreSQL</p>
+            </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png"
+                alt="graphql-logo"
+              />
+              <p>GraphQl</p>
+            </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
+                alt="react-logo"
+              />
+              <p>React</p>
             </div>
             <div className={`${styles.icon}`}>
               <img

@@ -64,7 +64,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 title="Marketlist against Inflation"
                 subtitle="Personal Project"
                 image="https://i.ibb.co/N9m6v1Q/comming-soon.webp"
-                url="proviamoalmacengourmet.com"
+                url="#"
               >
                 In order to take a control of price increase due to high
                 inflation in Argentina, i created this marketlist that converts
