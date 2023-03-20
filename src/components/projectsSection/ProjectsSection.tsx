@@ -40,7 +40,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 title="EdenDesk CRM"
                 subtitle="Real Project"
                 image="https://i.ibb.co/CVVgy4P/edendeskwallpaper.webp"
-                url="https://edendesk-crm.vercel.app/"
+                url="https://edendesk-crm-frontend.vercel.app/"
               >
                 CRM for a regional products company. It was created in order to
                 improve efficiency of client managment and get information about

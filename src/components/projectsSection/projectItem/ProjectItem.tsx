@@ -2,8 +2,7 @@
 import styles from "./ProjectItem.module.scss";
 
 //ICONS
-import { FontAwesomeIcon, faGithub, faLink } from '../../icon';
-
+import { FontAwesomeIcon, faGithub, faLink } from "../../icon";
 
 type Props = {
   children: React.ReactNode;
@@ -22,47 +21,37 @@ export const ProjectItem: React.FC<Props> = ({
   image,
   project,
   theme,
-  url
+  url,
 }) => {
   return (
     <article className={`${styles.article}`}>
       <div className={`${styles.container}`}>
-       <a target="_blank" href={url}><img src={`${image}`} alt="project"/></a>
-        <a target="_blank" href={url}><h3>{title}</h3></a>
+        <a target="_blank" href={url}>
+          <img src={`${image}`} alt="project" />
+        </a>
+        <a target="_blank" href={url}>
+          <h3>{title}</h3>
+        </a>
         <h4>{subtitle}</h4>
         <p>{children}</p>
       </div>
 
-      {project === "edendesk" &&
+      {project === "edendesk" && (
         <>
           <div className={`${styles.stack}`}>
-          <div className={`${styles.icon}`}>
-            <img
-              src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
-              alt="react-logo"
-            />
-            <p>React</p>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
+                alt="typescript-logo"
+              />
+              <p>Typescript</p>
             </div>
             <div className={`${styles.icon}`}>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
-              alt="typescript-logo"
-            />
-            <p>Typescript</p>
-            </div>
-            <div className={`${styles.icon}`}>
-             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
-              alt="tailwind-logo"
-            />
-            <p>Tailwind</p>
-            </div>
-            <div className={`${styles.icon}`}>
-            <img
-              src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
-              alt="node-logo"
-            />
-            <p>NodeJS</p>
+              <img
+                src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+                alt="node-logo"
+              />
+              <p>NodeJS</p>
             </div>
             <div className={`${styles.icon}`}>
               <img
@@ -85,87 +74,117 @@ export const ProjectItem: React.FC<Props> = ({
               />
               <p>JWT</p>
             </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
+                alt="react-logo"
+              />
+              <p>React</p>
+            </div>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+                alt="tailwind-logo"
+              />
+              <p>Tailwind</p>
+            </div>
           </div>
-          <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
-        <a target="_blank" href="#" className={`${styles.icon}`}>
-          <i><FontAwesomeIcon icon={faLink} /></i>
-          <p>Website</p>
-        </a >
-        <a target="_blank" href="#" className={`${styles.icon}`}>
-          <i><FontAwesomeIcon icon={faGithub} /></i>
-          <p>Github Repo</p>
-        </a>
-      </div>
+          <div
+            className={`${theme === "dark" ? styles.dark : styles.light} ${
+              styles.info
+            }`}
+          >
+            <a target="_blank" href="#" className={`${styles.icon}`}>
+              <i>
+                <FontAwesomeIcon icon={faLink} />
+              </i>
+              <p>Website</p>
+            </a>
+            <a target="_blank" href="#" className={`${styles.icon}`}>
+              <i>
+                <FontAwesomeIcon icon={faGithub} />
+              </i>
+              <p>Github Repo</p>
+            </a>
+          </div>
         </>
-      }
-      {project === "proviamo" &&
+      )}
+      {project === "proviamo" && (
         <>
           <div className={`${styles.stack}`}>
-          <div className={`${styles.icon}`}>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-              alt="css-logo"
-            />
-            <p>CSS</p>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                alt="css-logo"
+              />
+              <p>CSS</p>
             </div>
             <div className={`${styles.icon}`}>
-            <img
-              src="https://i.ibb.co/ZHPxSf1/80-803501-javascript-logo-logo-de-java-script-png.png"
-              alt="-javascript-logo"
-            />
-            <p>Javascript</p>
+              <img
+                src="https://i.ibb.co/ZHPxSf1/80-803501-javascript-logo-logo-de-java-script-png.png"
+                alt="-javascript-logo"
+              />
+              <p>Javascript</p>
             </div>
             <div className={`${styles.icon}`}>
-            <img
-              src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
-              alt="node-logo"
-            />
-            <p>NodeJS</p>
+              <img
+                src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+                alt="node-logo"
+              />
+              <p>NodeJS</p>
             </div>
             <div className={`${styles.icon}`}>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2965/2965327.png"
-              alt="sheets-logo"
-            />
-            <p>Google Sheets</p>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/2965/2965327.png"
+                alt="sheets-logo"
+              />
+              <p>Google Sheets</p>
             </div>
           </div>
-          <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
-        <a target="_blank" href="#" className={`${styles.icon}`}>
-          <i><FontAwesomeIcon icon={faLink} /></i>
-          <p>Website</p>
-        </a >
-        <a target="_blank" href="#" className={`${styles.icon}`}>
-          <i><FontAwesomeIcon icon={faGithub} /></i>
-          <p>Github Repo</p>
-        </a>
-      </div>
+          <div
+            className={`${theme === "dark" ? styles.dark : styles.light} ${
+              styles.info
+            }`}
+          >
+            <a target="_blank" href="#" className={`${styles.icon}`}>
+              <i>
+                <FontAwesomeIcon icon={faLink} />
+              </i>
+              <p>Website</p>
+            </a>
+            <a target="_blank" href="#" className={`${styles.icon}`}>
+              <i>
+                <FontAwesomeIcon icon={faGithub} />
+              </i>
+              <p>Github Repo</p>
+            </a>
+          </div>
         </>
-      }
+      )}
 
-      {project === "marketlist" &&
+      {project === "marketlist" && (
         <>
           <div className={`${styles.stack}`}>
-          <div className={`${styles.icon}`}>
-            <img
-              src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
-              alt="react-logo"
-            />
-            <p>React</p>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
+                alt="react-logo"
+              />
+              <p>React</p>
             </div>
             <div className={`${styles.icon}`}>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
-              alt="typescript-logo"
-            />
-            <p>Typescript</p>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
+                alt="typescript-logo"
+              />
+              <p>Typescript</p>
             </div>
             <div className={`${styles.icon}`}>
-            <img
-              src="https://stringfixer.com/files/736788654.jpg"
-              alt="firebase-logo"
-            />
-            <p>Firebase</p>
+              <img
+                src="https://stringfixer.com/files/736788654.jpg"
+                alt="firebase-logo"
+              />
+              <p>Firebase</p>
             </div>
             <div className={`${styles.icon}`}>
               <img
@@ -173,37 +192,45 @@ export const ProjectItem: React.FC<Props> = ({
                 alt="sass-logo"
               />
               <p>Sass</p>
-              </div>
+            </div>
           </div>
-          <div className={`${theme === "dark" ? styles.dark : styles.light} ${styles.info}`}>
-        <a target="_blank" href="#" className={`${styles.icon}`}>
-          <i><FontAwesomeIcon icon={faLink} /></i>
-          <p>Website</p>
-        </a >
-        <a target="_blank" href="#" className={`${styles.icon}`}>
-          <i><FontAwesomeIcon icon={faGithub} /></i>
-          <p>Github Repo</p>
-        </a>
-      </div>
+          <div
+            className={`${theme === "dark" ? styles.dark : styles.light} ${
+              styles.info
+            }`}
+          >
+            <a target="_blank" href="#" className={`${styles.icon}`}>
+              <i>
+                <FontAwesomeIcon icon={faLink} />
+              </i>
+              <p>Website</p>
+            </a>
+            <a target="_blank" href="#" className={`${styles.icon}`}>
+              <i>
+                <FontAwesomeIcon icon={faGithub} />
+              </i>
+              <p>Github Repo</p>
+            </a>
+          </div>
         </>
-      }
+      )}
 
-      {project === "caloriesCalculator" &&
+      {project === "caloriesCalculator" && (
         <>
           <div className={`${styles.stack}`}>
-          <div className={`${styles.icon}`}>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
-              alt="typescript-logo"
-            />
-            <p>Typescript</p>
+            <div className={`${styles.icon}`}>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
+                alt="typescript-logo"
+              />
+              <p>Typescript</p>
             </div>
             <div className={`${styles.icon}`}>
-            <img
-              src="https://themes.getbootstrap.com/wp-content/uploads/2018/02/Bootstrap-logo.png"
-              alt="bootstrap-logo"
-            />
-            <p>Bootstrap</p>
+              <img
+                src="https://themes.getbootstrap.com/wp-content/uploads/2018/02/Bootstrap-logo.png"
+                alt="bootstrap-logo"
+              />
+              <p>Bootstrap</p>
             </div>
             <div className={`${styles.icon}`}>
               <img
@@ -211,12 +238,10 @@ export const ProjectItem: React.FC<Props> = ({
                 alt="sass-logo"
               />
               <p>Sass</p>
-              </div>
+            </div>
           </div>
         </>
-      }
-
-      
+      )}
     </article>
   );
 };

@@ -165,7 +165,7 @@ function App() {
                   like{" "}
                   <a
                     target="_blank"
-                    href="https://edendesk-crm-frontend.vercel.app"
+                    href="https://edendesk-crm-frontend.vercel.app/"
                   >
                     this CRM
                   </a>{" "}
