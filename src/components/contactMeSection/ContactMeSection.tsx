@@ -72,7 +72,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 <div className={`${styles.resumeBox}`}>
                   <a
                     target="_blank"
-                    href="https://media.licdn.com/dms/document/C4D2DAQGi18kIXeDWVw/profile-treasury-document-pdf-analyzed/0/1677015227763?e=1677715200&v=beta&t=TWxIw8Iofmaguz7rqXe7_aefh1WW2QQkV9VXp8Hy7fI"
+                    href="https://media.licdn.com/dms/document/media/D4D2DAQFmvbeXffsobg/profile-treasury-document-pdf-analyzed/0/1698224100765?e=1698883200&v=beta&t=Xi9cbKd_GQzkaejsMYXY3lzS_B4T-25ikFtH3Tj_8WU"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
@@ -81,7 +81,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://media.licdn.com/dms/document/C4D2DAQEAsNopuWTLDA/profile-treasury-document-pdf-analyzed/0/1677015274968?e=1677715200&v=beta&t=56SWHuEF79D7uRadwe2PMS17Il2hVUFjsMml8pBio4g"
+                    href="https://media.licdn.com/dms/document/media/D4D2DAQGK8z22BpeSBQ/profile-treasury-document-pdf-analyzed/0/1698224146756?e=1698883200&v=beta&t=oFmNwvMt8ciVQ_AHtJAbqS_3nK_ULvogbg_Kviw_EtE"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
@@ -152,7 +152,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 <div className={`${styles.resumeBox}`}>
                   <a
                     target="_blank"
-                    href="https://media.licdn.com/dms/document/C4D2DAQGi18kIXeDWVw/profile-treasury-document-pdf-analyzed/0/1677015227763?e=1677715200&v=beta&t=TWxIw8Iofmaguz7rqXe7_aefh1WW2QQkV9VXp8Hy7fI"
+                    href="https://media.licdn.com/dms/document/media/D4D2DAQFmvbeXffsobg/profile-treasury-document-pdf-analyzed/0/1698224100765?e=1698883200&v=beta&t=Xi9cbKd_GQzkaejsMYXY3lzS_B4T-25ikFtH3Tj_8WU"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
@@ -161,7 +161,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://media.licdn.com/dms/document/C4D2DAQEAsNopuWTLDA/profile-treasury-document-pdf-analyzed/0/1677015274968?e=1677715200&v=beta&t=56SWHuEF79D7uRadwe2PMS17Il2hVUFjsMml8pBio4g"
+                    href="https://media.licdn.com/dms/document/media/D4D2DAQGK8z22BpeSBQ/profile-treasury-document-pdf-analyzed/0/1698224146756?e=1698883200&v=beta&t=oFmNwvMt8ciVQ_AHtJAbqS_3nK_ULvogbg_Kviw_EtE"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>

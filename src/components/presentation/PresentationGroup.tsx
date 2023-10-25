@@ -20,7 +20,7 @@ export const PresentationGroup: React.FC<Props> = ({ theme, language }) => {
           <li className={`${styles.greeting}`}>Hi, i'm</li>
           <li className={`${styles.name}`}>Facundo Acosta</li>
           <div className={`${styles.presentationBox}`}>
-            <p>Backend developer</p>
+            <p>Full-Stack developer</p>
           </div>
         </>
       ) : (
@@ -28,7 +28,7 @@ export const PresentationGroup: React.FC<Props> = ({ theme, language }) => {
           <li className={`${styles.greeting}`}>Hola, soy</li>
           <li className={`${styles.name}`}>Facundo Acosta</li>
           <div className={`${styles.presentationBox}`}>
-            <p>Desarrollador Backend</p>
+            <p>Full-Stack Backend</p>
           </div>
         </>
       )}

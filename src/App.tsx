@@ -149,7 +149,7 @@ function App() {
               <>
                 <p>
                   {" "}
-                  Im a self-taught Backend Developer based in Buenos Aires,
+                  Im a self-taught Full-Stack Developer based in Buenos Aires,
                   Argentina, willing to be an expert in{" "}
                   <span className={`${styles.nodeColor}`}>
                     <FontAwesomeIcon icon={faNodeJs} />
@@ -182,7 +182,7 @@ function App() {
               <>
                 <p>
                   {" "}
-                  Soy un Desarrollador Backend autodidacta de Buenos Aires,
+                  Soy un Desarrollador Full-Stack autodidacta de Buenos Aires,
                   Argentina, en constante crecimiento y dispuesto a ser un
                   experto tanto en{" "}
                   <span className={`${styles.nodeColor}`}>
