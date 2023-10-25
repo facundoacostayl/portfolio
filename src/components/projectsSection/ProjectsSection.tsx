@@ -39,7 +39,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="edendesk"
                 title="EdenDesk CRM"
                 subtitle="Real Project"
-                image="https://i.ibb.co/CVVgy4P/edendeskwallpaper.webp"
+                image="https://i.ibb.co/4SG1g9q/edendeskwallpaper.webp"
                 url="https://edendesk-crm-frontend.vercel.app/"
               >
                 CRM for a regional products company. It was created in order to
@@ -51,7 +51,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="proviamo"
                 title="Proviamo's E-Commerce"
                 subtitle="Real Project"
-                image="https://i.ibb.co/g6j0pBc/proviamowallpaper.webp"
+                image="https://i.ibb.co/VJKxp2B/proviamowallpaper.webp"
                 url="https://proviamoalmacengourmet.com"
               >
                 E-Commerce for a gourmet products company based in Argentina.
@@ -60,16 +60,15 @@ export const ProjectsSection = ({ theme, language }: Props) => {
               </ProjectItem>
               <ProjectItem
                 theme={theme}
-                project="marketlist"
-                title="Marketlist against Inflation"
-                subtitle="Personal Project"
-                image="https://i.ibb.co/N9m6v1Q/comming-soon.webp"
-                url="#"
+                project="multipar"
+                title="Multipar"
+                subtitle="Real Project"
+                image="https://i.ibb.co/Y2pPGP8/multiparwallpaper.webp"
+                url="https://multipar.com.ar"
               >
-                In order to take a control of price increase due to high
-                inflation in Argentina, i created this marketlist that converts
-                products prices and total from your currency to dollars to
-                compare them in your next visit to the market.
+                I developed the Frontend of a Argentinian Maritime Company’s
+                landing page. My team was formed by a Product Owner, a designer
+                and me
               </ProjectItem>
               {/*isMoreOpened && (
             <ProjectItem
@@ -109,7 +108,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="edendesk"
                 title="EdenDesk CRM"
                 subtitle="Proyecto Real"
-                image="https://i.ibb.co/CVVgy4P/edendeskwallpaper.webp"
+                image="https://i.ibb.co/4SG1g9q/edendeskwallpaper.webp"
                 url="https://edendesk-crm.vercel.app/"
               >
                 CRM para una cadena de comercios de productos regionales. Creada
@@ -121,7 +120,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="proviamo"
                 title="Proviamo's E-Commerce"
                 subtitle="Proyecto Real"
-                image="https://i.ibb.co/g6j0pBc/proviamowallpaper.webp"
+                image="https://i.ibb.co/VJKxp2B/proviamowallpaper.webp"
                 url="https://proviamoalmacengourmet.com"
               >
                 E-Commerce para una cadena de productos gourmet de Argentina.
@@ -130,16 +129,15 @@ export const ProjectsSection = ({ theme, language }: Props) => {
               </ProjectItem>
               <ProjectItem
                 theme={theme}
-                project="marketlist"
-                title="Marketlist against Inflation"
-                subtitle="Proyecto Personal"
-                image="https://i.ibb.co/N9m6v1Q/comming-soon.webp"
-                url="proviamoalmacengourmet.com"
+                project="multipar"
+                title="Multipar"
+                subtitle="Proyecto Real"
+                image="https://i.ibb.co/Y2pPGP8/multiparwallpaper.webp"
+                url="https://multipar.com.ar"
               >
-                Debido a la alta inflación en Argentina, cree esta aplicación
-                que funciona como "lista de compras" pero con la particularidad
-                de que la misma guarda el precio total de la compra y lo
-                convierte en dolares para un mayor control en el tiempo.
+                Desarrollé el frontend de la landing page de una compañía
+                maritima de Buenos Aires, Argentina. Desarrollo junto a
+                Diseñador y Product Owner.
               </ProjectItem>
               {/*isMoreOpened && (
             <ProjectItem
