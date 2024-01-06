@@ -28,7 +28,7 @@ export const PresentationGroup: React.FC<Props> = ({ theme, language }) => {
           <li className={`${styles.greeting}`}>Hola, soy</li>
           <li className={`${styles.name}`}>Facundo Acosta</li>
           <div className={`${styles.presentationBox}`}>
-            <p>Full-Stack Backend</p>
+            <p>Full-Stack developer</p>
           </div>
         </>
       )}
