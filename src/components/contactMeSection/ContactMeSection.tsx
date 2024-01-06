@@ -72,7 +72,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 <div className={`${styles.resumeBox}`}>
                   <a
                     target="_blank"
-                    href="https://media.licdn.com/dms/document/media/D4D2DAQFmvbeXffsobg/profile-treasury-document-pdf-analyzed/0/1698224100765?e=1698883200&v=beta&t=Xi9cbKd_GQzkaejsMYXY3lzS_B4T-25ikFtH3Tj_8WU"
+                    href="https://drive.google.com/file/d/1EDvYbjKb-H7X18Va9LV46N4wwIelEnmj/view?usp=drive_link"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
@@ -81,7 +81,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://media.licdn.com/dms/document/media/D4D2DAQGK8z22BpeSBQ/profile-treasury-document-pdf-analyzed/0/1698224146756?e=1698883200&v=beta&t=oFmNwvMt8ciVQ_AHtJAbqS_3nK_ULvogbg_Kviw_EtE"
+                    href="https://drive.google.com/file/d/1RoSFPDh-u_YKZS1rXa413Qlpfk7rMYDM/view?usp=drive_link"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
@@ -152,7 +152,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 <div className={`${styles.resumeBox}`}>
                   <a
                     target="_blank"
-                    href="https://media.licdn.com/dms/document/media/D4D2DAQFmvbeXffsobg/profile-treasury-document-pdf-analyzed/0/1698224100765?e=1698883200&v=beta&t=Xi9cbKd_GQzkaejsMYXY3lzS_B4T-25ikFtH3Tj_8WU"
+                    href="https://drive.google.com/file/d/1EDvYbjKb-H7X18Va9LV46N4wwIelEnmj/view?usp=drive_link"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
@@ -161,7 +161,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://media.licdn.com/dms/document/media/D4D2DAQGK8z22BpeSBQ/profile-treasury-document-pdf-analyzed/0/1698224146756?e=1698883200&v=beta&t=oFmNwvMt8ciVQ_AHtJAbqS_3nK_ULvogbg_Kviw_EtE"
+                    href="https://drive.google.com/file/d/1RoSFPDh-u_YKZS1rXa413Qlpfk7rMYDM/view?usp=drive_link"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
