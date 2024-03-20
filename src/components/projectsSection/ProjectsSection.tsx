@@ -68,7 +68,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
               >
                 I developed the Frontend of a Argentinian Maritime Company’s
                 landing page. My team was formed by a Product Owner, a designer
-                and me
+                and me.
               </ProjectItem>
               {/*isMoreOpened && (
             <ProjectItem

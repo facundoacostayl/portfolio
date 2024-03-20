@@ -149,69 +149,52 @@ function App() {
               <>
                 <p>
                   {" "}
-                  Im a self-taught Full-Stack Developer based in Buenos Aires,
-                  Argentina, willing to be an expert in{" "}
-                  <span className={`${styles.nodeColor}`}>
-                    <FontAwesomeIcon icon={faNodeJs} />
-                    NodeJS
-                  </span>{" "}
-                  and its ecosystem and{" "}
-                  <span className={`${styles.tsColor}`}>Typescript</span>. I'm
-                  looking for my first job in this field.
+                  Im a Full-Stack Developer based in Buenos Aires, Argentina,
+                  with +3 years of experience working with React.js + Node.js. I
+                  focus principally in good practices and strong communication.
                 </p>
                 <p>
                   {" "}
-                  I created projects for my last job (administration position)
-                  like{" "}
+                  I created several end-to-end projects like{" "}
                   <a
                     target="_blank"
                     href="https://edendesk-crm-frontend.vercel.app/"
                   >
                     this CRM
                   </a>{" "}
-                  in order to improve daily tasks efficiency, and i made their{" "}
+                  in order to improve a company's daily tasks efficiency, and i
+                  made{" "}
                   <a target="_blank" href="https://proviamoalmacengourmet.com">
-                    E-commerce
+                    this E-commerce
                   </a>{" "}
-                  , which is currently working, as well as personal projects
-                  with a problem solution focus (you can find all of them in 'My
-                  Projects' section).
+                  , which is currently working and generating sales constantly.
                 </p>
               </>
             ) : (
               <>
                 <p>
                   {" "}
-                  Soy un Desarrollador Full-Stack autodidacta de Buenos Aires,
-                  Argentina, en constante crecimiento y dispuesto a ser un
-                  experto tanto en{" "}
-                  <span className={`${styles.nodeColor}`}>
-                    <FontAwesomeIcon icon={faNodeJs} />
-                    NodeJS
-                  </span>{" "}
-                  y su ecosistema, como en{" "}
-                  <span className={`${styles.tsColor}`}>Typescript</span>.
-                  Actualmente me encuentro en busqueda de mi primer trabajo en
-                  el rubro IT.
+                  Soy un Desarrollador Full-Stack de Buenos Aires, Argentina,
+                  con más de 3 años de experiencia trabajando con React.js +
+                  Node.js. Mi enfoque principal son las buenas prácticas, y la
+                  comunicación efectiva.
                 </p>
                 <p>
                   {" "}
-                  Desarrollé proyectos para mi último trabajo (puesto de
-                  administración) como{" "}
+                  Desarrollé proyectos de principio a fin como{" "}
                   <a
                     target="_blank"
                     href="https://edendesk-crm-frontend.vercel.app"
                   >
                     este CRM
                   </a>{" "}
-                  que desarrollé para mejorar la eficacia de mis tareas diarias,
-                  e hice su{" "}
+                  , utilizado para mejorar la eficiencia de las tareas diarias,
+                  o{" "}
                   <a target="_blank" href="https://proviamoalmacengourmet.com">
-                    E-commerce
+                    este E-commerce
                   </a>
-                  , el cual actualmente está en uso, así como proyectos
-                  personales con foco en la solución de problemas puntuales
-                  (estos se encuentran en la sección "Mis Proyectos").
+                  , el cual está funcionando actualmente y generando ventas
+                  constantemente.
                 </p>
               </>
             )}
@@ -233,7 +216,8 @@ function App() {
                     Typescript
                   </span>,{" "}
                   <span className={`${styles.nodeColor}`}>Express</span>,{" "}
-                  <span className={`${styles.englandColor}`}>NestJs</span>,{" "}
+                  <span className={`${styles.englandColor}`}>Java</span>,{" "}
+                  <span className={`${styles.nodeColor}`}>SpringBoot</span>,{" "}
                   <span>SQL</span> +{" "}
                   <span className={`${styles.pgColor}`}>Postgres</span>,{" "}
                   <span>No-SQL</span> +{" "}
@@ -284,7 +268,8 @@ function App() {
                     Typescript
                   </span>,{" "}
                   <span className={`${styles.nodeColor}`}>Express</span>,{" "}
-                  <span className={`${styles.englandColor}`}>NestJs</span>,{" "}
+                  <span className={`${styles.englandColor}`}>Java</span>,{" "}
+                  <span className={`${styles.nodeColor}`}>SpringBoot</span>{" "}
                   <span>SQL</span> +{" "}
                   <span className={`${styles.pgColor}`}>Postgres</span>,{" "}
                   <span>No-SQL</span> +{" "}

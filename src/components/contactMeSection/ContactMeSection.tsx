@@ -72,7 +72,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                 <div className={`${styles.resumeBox}`}>
                   <a
                     target="_blank"
-                    href="https://drive.google.com/file/d/1EDvYbjKb-H7X18Va9LV46N4wwIelEnmj/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/15QH5z_eCESxRnFZ9VIu71pR5LjFUROHM/view?usp=drive_link"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
@@ -81,7 +81,7 @@ export const ContactMeSection = ({ theme, language }: Props) => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://drive.google.com/file/d/1RoSFPDh-u_YKZS1rXa413Qlpfk7rMYDM/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1GeClPdaZJ2Ji3L9AVYE2NgHvdbGRGhtE/view?usp=drive_link"
                   >
                     <i>
                       <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
