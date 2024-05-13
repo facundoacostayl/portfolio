@@ -1,67 +1,65 @@
 .content {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
 
-    h1 {
-        margin-bottom: 2rem;
-        font-weight: 500;
-    }
+  h1 {
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
 }
 
 @media screen and(min-width: 1200px) {
+  .content {
+    padding: 2rem 2rem;
+  }
 
-    .content {
-        padding: 2rem 2rem;
-    }
-    
-    .projectsContainer {
-        max-width: 1600px;
-        margin: 0 auto;
-    }
+  .projectsContainer {
+    display: flex;
+    gap: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
 }
-
 
 .more {
-    width: 110px;
-    margin: 0 auto;
-    padding: 7px 5px;
-    border: 1px solid #6f6f6f;
-    background: none;
-    color: #6f6f6f;
-    font-size: 20px;
-    transition: .3s all ease;
-    cursor: pointer;
+  width: 110px;
+  margin: 0 auto;
+  padding: 7px 5px;
+  border: 1px solid #6f6f6f;
+  background: none;
+  color: #6f6f6f;
+  font-size: 20px;
+  transition: 0.3s all ease;
+  cursor: pointer;
 }
 
 @media screen and(min-width: 1200px) {
-    .more:hover {
-        color: whitesmoke;
-        background-color: #827397b8;
-    }
+  .more:hover {
+    color: whitesmoke;
+    background-color: #827397b8;
+  }
 }
 
-
-
 .dark {
-    .container {
-        background-color: #101010;
+  .container {
+    background-color: #101010;
 
-        h1 {
-            color: whitesmoke;
-        }
+    h1 {
+      color: whitesmoke;
     }
+  }
 }
 
 .light {
-    .container {
-        background-color: rgb(241, 240, 240);
-        h1 {
-            color: #5e5e5e;
-        }
-
-        p{
-            color: gray;
-        }
+  .container {
+    background-color: rgb(241, 240, 240);
+    h1 {
+      color: #5e5e5e;
     }
+
+    p {
+      color: gray;
+    }
+  }
 }

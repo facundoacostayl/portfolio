@@ -32,14 +32,14 @@ export const ProjectsSection = ({ theme, language }: Props) => {
           }`}
         >
           <div className={`${styles.content}`}>
-            <h1>My Projects</h1>
+            <h1>Some of my Projects...</h1>
             <div className={`${styles.projectsContainer}`}>
               <ProjectItem
                 theme={theme}
                 project="edendesk"
                 title="EdenDesk CRM"
                 subtitle="Real Project"
-                image="https://i.ibb.co/4SG1g9q/edendeskwallpaper.webp"
+                image="https://ik.imagekit.io/7qey5t4qq/edendeskwallpaper.webp?updatedAt=1715515348840"
                 url="https://edendesk-crm-frontend.vercel.app/"
               >
                 CRM for a regional products company. It was created in order to
@@ -51,7 +51,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="proviamo"
                 title="Proviamo's E-Commerce"
                 subtitle="Real Project"
-                image="https://i.ibb.co/VJKxp2B/proviamowallpaper.webp"
+                image="https://ik.imagekit.io/7qey5t4qq/proviamowallpaper_1.webp?updatedAt=1715594494097"
                 url="https://proviamoalmacengourmet.com"
               >
                 E-Commerce for a gourmet products company based in Argentina.
@@ -63,7 +63,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="multipar"
                 title="Multipar"
                 subtitle="Real Project"
-                image="https://i.ibb.co/Y2pPGP8/multiparwallpaper.webp"
+                image="https://ik.imagekit.io/7qey5t4qq/multiparwallpaper%20(1).webp?updatedAt=1715594495325"
                 url="https://multipar.com.ar"
               >
                 I developed the Frontend of a Argentinian Maritime Company’s
@@ -108,7 +108,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="edendesk"
                 title="EdenDesk CRM"
                 subtitle="Proyecto Real"
-                image="https://i.ibb.co/4SG1g9q/edendeskwallpaper.webp"
+                image="https://ik.imagekit.io/7qey5t4qq/edendeskwallpaper.webp?updatedAt=1715515348840"
                 url="https://edendesk-crm.vercel.app/"
               >
                 CRM para una cadena de comercios de productos regionales. Creada
@@ -132,7 +132,7 @@ export const ProjectsSection = ({ theme, language }: Props) => {
                 project="multipar"
                 title="Multipar"
                 subtitle="Proyecto Real"
-                image="https://i.ibb.co/Y2pPGP8/multiparwallpaper.webp"
+                image="https://ik.imagekit.io/7qey5t4qq/multiparwallpaper%20(1).webp?updatedAt=1715594495325"
                 url="https://multipar.com.ar"
               >
                 Desarrollé el frontend de la landing page de una compañía
