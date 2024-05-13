@@ -150,24 +150,25 @@ function App() {
                 <p>
                   {" "}
                   Im a Full-Stack Developer based in Buenos Aires, Argentina,
-                  with +3 years of experience working with React.js + Node.js. I
-                  focus principally in good practices and strong communication.
+                  with +3 years of experience. I focus principally in good
+                  practices and strong communication.
                 </p>
                 <p>
                   {" "}
-                  I created several end-to-end projects like{" "}
+                  I created several end-to-end projects for the company I work
+                  for, such as{" "}
                   <a
                     target="_blank"
                     href="https://edendesk-crm-frontend.vercel.app/"
                   >
                     this CRM
                   </a>{" "}
-                  in order to improve a company's daily tasks efficiency, and i
-                  made{" "}
+                  in order to improve daily tasks efficiency, and i made{" "}
                   <a target="_blank" href="https://proviamoalmacengourmet.com">
                     this E-commerce
                   </a>{" "}
-                  , which is currently working and generating sales constantly.
+                  , which is currently working and generating sales constantly,
+                  among others.
                 </p>
               </>
             ) : (
@@ -175,13 +176,13 @@ function App() {
                 <p>
                   {" "}
                   Soy un Desarrollador Full-Stack de Buenos Aires, Argentina,
-                  con más de 3 años de experiencia trabajando con React.js +
-                  Node.js. Mi enfoque principal son las buenas prácticas, y la
-                  comunicación efectiva.
+                  con más de 3 años de experiencia. Mi enfoque principal son las
+                  buenas prácticas y la comunicación efectiva.
                 </p>
                 <p>
                   {" "}
-                  Desarrollé proyectos de principio a fin como{" "}
+                  Desarrollé proyectos de principio a fin para la empresa en la
+                  que trabajo, como{" "}
                   <a
                     target="_blank"
                     href="https://edendesk-crm-frontend.vercel.app"
@@ -214,9 +215,9 @@ function App() {
                   </span>{" "}
                   + <span className={`${styles.tsColor}`}>
                     Typescript
-                  </span>,{" "}
+                  </span> +{" "}
                   <span className={`${styles.nodeColor}`}>Express</span>,{" "}
-                  <span className={`${styles.englandColor}`}>Java</span>,{" "}
+                  <span className={`${styles.englandColor}`}>Java</span> +{" "}
                   <span className={`${styles.nodeColor}`}>SpringBoot</span>,{" "}
                   <span>SQL</span> +{" "}
                   <span className={`${styles.pgColor}`}>Postgres</span>,{" "}
@@ -227,11 +228,13 @@ function App() {
                   <span className={`${styles.jwtColor}`}>JWT</span> and{" "}
                   <span className={`${styles.jestColor}`}>Jest</span> for unit
                   testings.
-                  <p>
-                    {" "}
-                    I focus in design and architecture patterns too, as well as
-                    the best security practices.
-                  </p>
+                </p>
+                <p>
+                  {" "}
+                  <span className={`${styles.tsColor}`}>Docker</span>,{" "}
+                  <span className={`${styles.nodeColor}`}>Kubernetes</span> and{" "}
+                  <span className={`${styles.jestColor}`}>Github-actions </span>
+                  for CI/CD and deployment.
                 </p>
                 <p>
                   {" "}
@@ -279,11 +282,13 @@ function App() {
                   <span className={`${styles.jwtColor}`}>JWT</span> and{" "}
                   <span className={`${styles.jestColor}`}>Jest</span> para unit
                   testings.
-                  <p>
-                    {" "}
-                    Hago foco en patrones de diseño y arquitectura, así como en
-                    buenas practicas de seguridad.
-                  </p>
+                </p>
+                <p>
+                  {" "}
+                  <span className={`${styles.tsColor}`}>Docker</span>,{" "}
+                  <span className={`${styles.nodeColor}`}>Kubernetes</span> and{" "}
+                  <span className={`${styles.jestColor}`}>Github-actions </span>
+                  para CI/CD y deployment.
                 </p>
                 <p>
                   {" "}
@@ -295,6 +300,11 @@ function App() {
                   , <span className={`${styles.twColor}`}>Tailwind</span>,{" "}
                   <span className={`${styles.sassColor}`}>SASS</span>,{" "}
                   <span className={`${styles.graphQLColor}`}>Bootstrap</span>,{" "}
+                </p>
+                <p>
+                  {" "}
+                  Hago foco en patrones de diseño y arquitectura, así como en
+                  buenas practicas de seguridad.
                 </p>
                 <p>
                   {" "}
